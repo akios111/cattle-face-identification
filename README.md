@@ -12,18 +12,18 @@ No result from one generation is silently relabelled as belonging to the other.
 ## Reproduce the released evidence
 
 From a clean clone, download the immutable evidence asset from the
-[`v1.0.0` release](https://github.com/akios111/cattle-face-identification/releases/tag/v1.0.0)
+[`v1.0.0-rc2` release candidate](https://github.com/akios111/cattle-face-identification/releases/tag/v1.0.0-rc2)
 and run:
 
 ```bash
-gh release download v1.0.0 --repo akios111/cattle-face-identification --pattern hardening_v2_evidence.zip --dir release-assets
+gh release download v1.0.0-rc2 --repo akios111/cattle-face-identification --pattern hardening_v2_evidence.zip --dir release-assets
 bash reproduce.sh release-assets/hardening_v2_evidence.zip
 ```
 
 On Windows PowerShell, use:
 
 ```powershell
-gh release download v1.0.0 --repo akios111/cattle-face-identification --pattern hardening_v2_evidence.zip --dir release-assets
+gh release download v1.0.0-rc2 --repo akios111/cattle-face-identification --pattern hardening_v2_evidence.zip --dir release-assets
 .\reproduce.ps1 -Evidence release-assets\hardening_v2_evidence.zip
 ```
 
@@ -38,7 +38,7 @@ python tools/release_asset_manifest.py
 python tools/release_asset_manifest.py --verify-only
 ```
 
-The tracked outputs are `release/v1.0.0/ASSET_MANIFEST.json` and `release/v1.0.0/SHA256SUMS`. The checkpoint and ZIP files remain outside Git and are uploaded as GitHub/Zenodo release assets. Raw CattleSSFR and Holstein2025 images are not included.
+The tracked outputs are `release/v1.0.0/ASSET_MANIFEST.json` and `release/v1.0.0/SHA256SUMS`. The checkpoint and ZIP files remain outside Git and are uploaded as GitHub release assets. This release candidate does not claim a Zenodo DOI. Raw CattleSSFR and Holstein2025 images are not included.
 
 ## Reproduce the hardening matrix
 
