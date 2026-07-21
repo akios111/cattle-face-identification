@@ -30,7 +30,7 @@ jobs:
       - name: Download immutable evidence asset
         run: gh release download "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --pattern hardening_v2_evidence.zip --dir release-assets
       - name: Reproduce scientific tables and run tests
-        run: ./reproduce.sh release-assets/hardening_v2_evidence.zip
+        run: bash reproduce.sh release-assets/hardening_v2_evidence.zip
       - uses: actions/upload-artifact@v4
         with:
           name: clean-reproduction-report-${{ env.RELEASE_TAG }}

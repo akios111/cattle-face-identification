@@ -17,7 +17,7 @@ and run:
 
 ```bash
 gh release download v1.0.0 --repo akios111/cattle-face-identification --pattern hardening_v2_evidence.zip --dir release-assets
-./reproduce.sh release-assets/hardening_v2_evidence.zip
+bash reproduce.sh release-assets/hardening_v2_evidence.zip
 ```
 
 On Windows PowerShell, use:
@@ -58,7 +58,7 @@ python tools/build_hardening_evidence.py --out artifacts/evidence/hardening_v2_e
 python tools/verify_hardening_evidence.py --zip artifacts/evidence/hardening_v2_evidence.zip
 ```
 
-The complete GPU route is `./reproduce.sh --full-gpu` or `.\reproduce.ps1 -FullGpu`. Completed training and evaluation jobs are skipped only when their required manifests, predictions, metrics, checkpoint hashes, and completion markers validate.
+The complete GPU route is `bash reproduce.sh --full-gpu` or `.\reproduce.ps1 -FullGpu`. Completed training and evaluation jobs are skipped only when their required manifests, predictions, metrics, checkpoint hashes, and completion markers validate.
 
 After a Colab runtime restart, run `python -u tools/finalize_hardening_colab.py` from the persistent Drive project. It validates the `29/29` and `16/16` completion manifests, skips already complete summary tables, restores only the pinned and SHA-256-verified runtime images required by the figures, and performs no training or evaluation.
 
