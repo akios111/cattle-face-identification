@@ -38,7 +38,7 @@ python tools/release_asset_manifest.py
 python tools/release_asset_manifest.py --verify-only
 ```
 
-The tracked outputs are `release/v1.0.0/ASSET_MANIFEST.json` and `release/v1.0.0/SHA256SUMS`. The checkpoint and ZIP files remain outside Git and are uploaded as GitHub release assets. This release candidate does not claim a Zenodo DOI. Raw CattleSSFR and Holstein2025 images are not included.
+The tracked outputs are `release/v1.0.0/ASSET_MANIFEST.json` and `release/v1.0.0/SHA256SUMS`. The checkpoint and ZIP files remain outside Git and are uploaded as GitHub release assets. `PUBLICATION_STATUS.json` records the verified candidate tag, commit, clean-reproduction run and the still-pending archival DOI. This release candidate does not claim a Zenodo DOI. Raw CattleSSFR and Holstein2025 images are not included.
 
 ## Reproduce the hardening matrix
 

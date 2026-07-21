@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "publication_state": "release_candidate",
+  "bibliographic_metadata_ready": false,
+  "repository_url": "https://github.com/akios111/cattle-face-identification",
+  "release_candidate": {
+    "tag": "v1.0.0-rc2",
+    "commit_sha": "777ac2d14abd28514513f7a906316dc9a2fed10f",
+    "release_url": "https://github.com/akios111/cattle-face-identification/releases/tag/v1.0.0-rc2",
+    "published_at": "2026-07-21T17:18:15Z",
+    "prerelease": true,
+    "asset_count": 3,
+    "asset_sha256_verified": true,
+    "clean_reproduction": {
+      "status": "success",
+      "run_url": "https://github.com/akios111/cattle-face-identification/actions/runs/29854209147",
+      "head_sha": "777ac2d14abd28514513f7a906316dc9a2fed10f",
+      "training_jobs": 29,
+      "holstein_evaluations": 16,
+      "tests_passed": 167
+    }
+  },
+  "archival_release": {
+    "status": "pending",
+    "required_tag": "v1.0.0",
+    "tag": null,
+    "commit_sha": null,
+    "release_url": null,
+    "doi": null,
+    "zenodo_record_url": null
+  }
+}
