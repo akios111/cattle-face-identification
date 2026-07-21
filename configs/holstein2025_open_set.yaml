@@ -1,0 +1,23 @@
+dataset:
+  name: holstein2025
+  source_url: https://github.com/JZM-shuimu/Cattle-ID
+  source_commit: b905600ca4153e8435c1a2c33306a2783de6fbdf
+  article_doi: https://doi.org/10.1016/j.atech.2025.101690
+  raw_dir: data/external_public/Holstein2025
+  expected_development_identities: 82
+  expected_open_set_identities: 20
+  expected_images: 3915
+  protocol: holstein2025_unseen_identity_reid
+  repository_license_declared: false
+
+split:
+  seed: 2026
+  validation_ratio: 0.2
+  gallery_dir: gallery1
+  probe_dir: query1
+
+outputs:
+  metadata: artifacts/metadata/holstein2025_open_set.csv
+  hash_manifest: artifacts/metadata/holstein2025_hashes.csv
+  readiness_report: thesis/gates/holstein2025-open-set-readiness.md
+  tables_dir: thesis/tables

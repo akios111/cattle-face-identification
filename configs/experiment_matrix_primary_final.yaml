@@ -1,0 +1,22 @@
+base_config: configs/cattlessfr_colab_proplus.yaml
+purpose: primary_confirmatory_final
+
+seeds: [1, 2, 3, 4, 5]
+
+models:
+  - efficientnetv2b3
+
+protocols:
+  - paper_random
+  - transform_holdout
+
+evaluations:
+  - holstein2025_zero_shot_reid
+
+evaluation_scope: each_training_run
+external_metadata: artifacts/metadata/holstein2025_open_set.csv
+
+output:
+  jobs_json: artifacts/matrix/experiment_matrix_primary_final_jobs.json
+  tables_dir: thesis/tables
+  figures_dir: thesis/figures/gradcam

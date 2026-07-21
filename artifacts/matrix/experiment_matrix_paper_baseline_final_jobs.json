@@ -1,0 +1,37 @@
+[
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab.yaml",
+    "seed": 2026,
+    "model": "vgg16",
+    "protocol": "paper_random"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab.yaml",
+    "seed": 2026,
+    "model": "resnet50",
+    "protocol": "paper_random"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab.yaml",
+    "seed": 2026,
+    "model": "mobilenetv2",
+    "protocol": "paper_random"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab.yaml",
+    "seed": 2026,
+    "model": "densenet121",
+    "protocol": "paper_random"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab.yaml",
+    "seed": 2026,
+    "model": "efficientnetb0",
+    "protocol": "paper_random"
+  }
+]

@@ -1,0 +1,2 @@
+splits,training_seed,augmentation_seed,accuracy_mean,accuracy_sample_std,macro_f1_mean,macro_f1_sample_std,test_sample_alignment
+5,1,1,0.9984994640943194,0.0006987355203861389,0.9984889708362378,0.0007036217827664563,split_specific

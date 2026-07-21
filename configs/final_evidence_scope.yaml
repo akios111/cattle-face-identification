@@ -1,0 +1,92 @@
+version: 1
+
+body_words:
+  minimum: 30500
+  target: 30800
+  maximum: 31500
+
+chapter_words:
+  01-eisagogi.tex: 2900
+  02-vathia-mathisi.tex: 3400
+  03-viometriki-zoon.tex: 2700
+  04-sxetikes-ergasies.tex: 3500
+  05-dataset.tex: 2500
+  06-proepexergasia.tex: 2700
+  07-arxitektonikes.tex: 3000
+  08-methodologia-apotelesmata.tex: 5000
+  09-syzitisi.tex: 3500
+  10-symperasmata.tex: 1600
+
+matrices:
+  paper_baseline:
+    jobs: artifacts/matrix/experiment_matrix_paper_baseline_final_jobs.json
+    required: true
+  primary_confirmatory:
+    jobs: artifacts/matrix/experiment_matrix_primary_final_jobs.json
+    required: true
+
+groups:
+  - name: paper_baseline
+    role: confirmatory
+    kind: classification
+    match:
+      models: [vgg16, resnet50, mobilenetv2, densenet121, efficientnetb0]
+      protocols: [paper_random]
+      seeds: [2026]
+
+  - name: primary_confirmatory
+    role: confirmatory
+    kind: classification
+    match:
+      models: [efficientnetv2b3]
+      protocols: [paper_random, transform_holdout]
+      seeds: [1, 2, 3, 4, 5]
+
+  - name: primary_zero_shot
+    role: confirmatory
+    kind: retrieval
+    match:
+      models: [efficientnetv2b3]
+      source_protocols: [paper_random, transform_holdout]
+      evaluation_protocols: [holstein2025_zero_shot_reid]
+      seeds: [1, 2, 3, 4, 5]
+
+  - name: primary_ablation
+    role: exploratory
+    kind: classification
+    main_protocols: [ablation_no_cutout, ablation_224, ablation_frozen]
+    match:
+      models: [efficientnetv2b3]
+      protocols:
+        - ablation_geometric_only
+        - ablation_no_cutout
+        - ablation_cutout_only
+        - ablation_224
+        - ablation_frozen
+      seeds: [1]
+
+  - name: enhanced_seed1
+    role: exploratory
+    kind: classification
+    appendix_only: true
+    match:
+      models: [convnexttiny, efficientnetb0]
+      protocols: [paper_random, transform_holdout]
+      seeds: [1]
+
+  - name: holstein_in_domain_seed1
+    role: exploratory
+    kind: retrieval
+    match:
+      models: [efficientnetv2b3]
+      source_protocols: [holstein2025_closed_set]
+      evaluation_protocols: [holstein2025_in_domain_reid]
+      seeds: [1]
+
+published_baseline_metrics: data/reference/cattlessfr_published_metrics.csv
+
+excluded_protocols:
+  - external_acquisition_holdout
+  - mask_ear_tag
+  - mask_paint
+  - mask_background

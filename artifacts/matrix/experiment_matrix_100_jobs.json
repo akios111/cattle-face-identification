@@ -1,0 +1,1157 @@
+[
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "paper_random"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "transform_holdout"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_geometric_only"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_no_cutout"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_cutout_only"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_224"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_frozen"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "efficientnetv2b3",
+    "evaluation": "external_acquisition_holdout"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "efficientnetv2b3",
+    "evaluation": "mask_ear_tag"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "efficientnetv2b3",
+    "evaluation": "mask_paint"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "efficientnetv2b3",
+    "evaluation": "mask_background"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "convnexttiny",
+    "protocol": "paper_random"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "convnexttiny",
+    "protocol": "transform_holdout"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "convnexttiny",
+    "protocol": "ablation_geometric_only"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "convnexttiny",
+    "protocol": "ablation_no_cutout"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "convnexttiny",
+    "protocol": "ablation_cutout_only"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "convnexttiny",
+    "protocol": "ablation_224"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "convnexttiny",
+    "protocol": "ablation_frozen"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "convnexttiny",
+    "evaluation": "external_acquisition_holdout"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "convnexttiny",
+    "evaluation": "mask_ear_tag"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "convnexttiny",
+    "evaluation": "mask_paint"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "convnexttiny",
+    "evaluation": "mask_background"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "efficientnetb0",
+    "protocol": "paper_random"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "efficientnetb0",
+    "protocol": "transform_holdout"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "efficientnetb0",
+    "protocol": "ablation_geometric_only"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "efficientnetb0",
+    "protocol": "ablation_no_cutout"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "efficientnetb0",
+    "protocol": "ablation_cutout_only"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "efficientnetb0",
+    "protocol": "ablation_224"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "efficientnetb0",
+    "protocol": "ablation_frozen"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "efficientnetb0",
+    "evaluation": "external_acquisition_holdout"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "efficientnetb0",
+    "evaluation": "mask_ear_tag"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "efficientnetb0",
+    "evaluation": "mask_paint"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "efficientnetb0",
+    "evaluation": "mask_background"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "efficientnetv2b3",
+    "protocol": "paper_random"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "efficientnetv2b3",
+    "protocol": "transform_holdout"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_geometric_only"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_no_cutout"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_cutout_only"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_224"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_frozen"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "efficientnetv2b3",
+    "evaluation": "external_acquisition_holdout"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "efficientnetv2b3",
+    "evaluation": "mask_ear_tag"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "efficientnetv2b3",
+    "evaluation": "mask_paint"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "efficientnetv2b3",
+    "evaluation": "mask_background"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "convnexttiny",
+    "protocol": "paper_random"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "convnexttiny",
+    "protocol": "transform_holdout"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "convnexttiny",
+    "protocol": "ablation_geometric_only"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "convnexttiny",
+    "protocol": "ablation_no_cutout"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "convnexttiny",
+    "protocol": "ablation_cutout_only"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "convnexttiny",
+    "protocol": "ablation_224"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "convnexttiny",
+    "protocol": "ablation_frozen"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "convnexttiny",
+    "evaluation": "external_acquisition_holdout"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "convnexttiny",
+    "evaluation": "mask_ear_tag"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "convnexttiny",
+    "evaluation": "mask_paint"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "convnexttiny",
+    "evaluation": "mask_background"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "efficientnetb0",
+    "protocol": "paper_random"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "efficientnetb0",
+    "protocol": "transform_holdout"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "efficientnetb0",
+    "protocol": "ablation_geometric_only"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "efficientnetb0",
+    "protocol": "ablation_no_cutout"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "efficientnetb0",
+    "protocol": "ablation_cutout_only"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "efficientnetb0",
+    "protocol": "ablation_224"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "efficientnetb0",
+    "protocol": "ablation_frozen"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "efficientnetb0",
+    "evaluation": "external_acquisition_holdout"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "efficientnetb0",
+    "evaluation": "mask_ear_tag"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "efficientnetb0",
+    "evaluation": "mask_paint"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "efficientnetb0",
+    "evaluation": "mask_background"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "efficientnetv2b3",
+    "protocol": "paper_random"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "efficientnetv2b3",
+    "protocol": "transform_holdout"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_geometric_only"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_no_cutout"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_cutout_only"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_224"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_frozen"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "efficientnetv2b3",
+    "evaluation": "external_acquisition_holdout"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "efficientnetv2b3",
+    "evaluation": "mask_ear_tag"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "efficientnetv2b3",
+    "evaluation": "mask_paint"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "efficientnetv2b3",
+    "evaluation": "mask_background"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "convnexttiny",
+    "protocol": "paper_random"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "convnexttiny",
+    "protocol": "transform_holdout"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "convnexttiny",
+    "protocol": "ablation_geometric_only"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "convnexttiny",
+    "protocol": "ablation_no_cutout"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "convnexttiny",
+    "protocol": "ablation_cutout_only"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "convnexttiny",
+    "protocol": "ablation_224"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "convnexttiny",
+    "protocol": "ablation_frozen"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "convnexttiny",
+    "evaluation": "external_acquisition_holdout"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "convnexttiny",
+    "evaluation": "mask_ear_tag"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "convnexttiny",
+    "evaluation": "mask_paint"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "convnexttiny",
+    "evaluation": "mask_background"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "efficientnetb0",
+    "protocol": "paper_random"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "efficientnetb0",
+    "protocol": "transform_holdout"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "efficientnetb0",
+    "protocol": "ablation_geometric_only"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "efficientnetb0",
+    "protocol": "ablation_no_cutout"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "efficientnetb0",
+    "protocol": "ablation_cutout_only"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "efficientnetb0",
+    "protocol": "ablation_224"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "efficientnetb0",
+    "protocol": "ablation_frozen"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "efficientnetb0",
+    "evaluation": "external_acquisition_holdout"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "efficientnetb0",
+    "evaluation": "mask_ear_tag"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "efficientnetb0",
+    "evaluation": "mask_paint"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "efficientnetb0",
+    "evaluation": "mask_background"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "efficientnetv2b3",
+    "protocol": "paper_random"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "efficientnetv2b3",
+    "protocol": "transform_holdout"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_geometric_only"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_no_cutout"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_cutout_only"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_224"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_frozen"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "efficientnetv2b3",
+    "evaluation": "external_acquisition_holdout"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "efficientnetv2b3",
+    "evaluation": "mask_ear_tag"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "efficientnetv2b3",
+    "evaluation": "mask_paint"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "efficientnetv2b3",
+    "evaluation": "mask_background"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "convnexttiny",
+    "protocol": "paper_random"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "convnexttiny",
+    "protocol": "transform_holdout"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "convnexttiny",
+    "protocol": "ablation_geometric_only"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "convnexttiny",
+    "protocol": "ablation_no_cutout"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "convnexttiny",
+    "protocol": "ablation_cutout_only"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "convnexttiny",
+    "protocol": "ablation_224"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "convnexttiny",
+    "protocol": "ablation_frozen"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "convnexttiny",
+    "evaluation": "external_acquisition_holdout"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "convnexttiny",
+    "evaluation": "mask_ear_tag"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "convnexttiny",
+    "evaluation": "mask_paint"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "convnexttiny",
+    "evaluation": "mask_background"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "efficientnetb0",
+    "protocol": "paper_random"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "efficientnetb0",
+    "protocol": "transform_holdout"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "efficientnetb0",
+    "protocol": "ablation_geometric_only"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "efficientnetb0",
+    "protocol": "ablation_no_cutout"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "efficientnetb0",
+    "protocol": "ablation_cutout_only"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "efficientnetb0",
+    "protocol": "ablation_224"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "efficientnetb0",
+    "protocol": "ablation_frozen"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "efficientnetb0",
+    "evaluation": "external_acquisition_holdout"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "efficientnetb0",
+    "evaluation": "mask_ear_tag"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "efficientnetb0",
+    "evaluation": "mask_paint"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "efficientnetb0",
+    "evaluation": "mask_background"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "efficientnetv2b3",
+    "protocol": "paper_random"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "efficientnetv2b3",
+    "protocol": "transform_holdout"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_geometric_only"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_no_cutout"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_cutout_only"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_224"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_frozen"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "efficientnetv2b3",
+    "evaluation": "external_acquisition_holdout"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "efficientnetv2b3",
+    "evaluation": "mask_ear_tag"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "efficientnetv2b3",
+    "evaluation": "mask_paint"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "efficientnetv2b3",
+    "evaluation": "mask_background"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "convnexttiny",
+    "protocol": "paper_random"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "convnexttiny",
+    "protocol": "transform_holdout"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "convnexttiny",
+    "protocol": "ablation_geometric_only"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "convnexttiny",
+    "protocol": "ablation_no_cutout"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "convnexttiny",
+    "protocol": "ablation_cutout_only"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "convnexttiny",
+    "protocol": "ablation_224"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "convnexttiny",
+    "protocol": "ablation_frozen"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "convnexttiny",
+    "evaluation": "external_acquisition_holdout"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "convnexttiny",
+    "evaluation": "mask_ear_tag"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "convnexttiny",
+    "evaluation": "mask_paint"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "convnexttiny",
+    "evaluation": "mask_background"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "efficientnetb0",
+    "protocol": "paper_random"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "efficientnetb0",
+    "protocol": "transform_holdout"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "efficientnetb0",
+    "protocol": "ablation_geometric_only"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "efficientnetb0",
+    "protocol": "ablation_no_cutout"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "efficientnetb0",
+    "protocol": "ablation_cutout_only"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "efficientnetb0",
+    "protocol": "ablation_224"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "efficientnetb0",
+    "protocol": "ablation_frozen"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "efficientnetb0",
+    "evaluation": "external_acquisition_holdout"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "efficientnetb0",
+    "evaluation": "mask_ear_tag"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "efficientnetb0",
+    "evaluation": "mask_paint"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "efficientnetb0",
+    "evaluation": "mask_background"
+  }
+]

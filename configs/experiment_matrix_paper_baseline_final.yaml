@@ -1,0 +1,21 @@
+base_config: configs/cattlessfr_colab.yaml
+purpose: paper_baseline_final
+
+seeds: [2026]
+
+models:
+  - vgg16
+  - resnet50
+  - mobilenetv2
+  - densenet121
+  - efficientnetb0
+
+protocols:
+  - paper_random
+
+evaluations: []
+
+output:
+  jobs_json: artifacts/matrix/experiment_matrix_paper_baseline_final_jobs.json
+  tables_dir: thesis/tables
+  figures_dir: thesis/figures/gradcam

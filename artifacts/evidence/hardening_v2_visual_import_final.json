@@ -1,0 +1,18 @@
+{
+  "files": 49,
+  "gradcam_runs": 2,
+  "holstein_error_identities": [
+    "9001",
+    "9004",
+    "9003",
+    "998240000037023",
+    "9006",
+    "998240000038207",
+    "9002",
+    "9010"
+  ],
+  "source_evidence_sha256": "40b087f63018eb920fd6d7e5f06987a372ff3071b7e3a8dbb67f7a5bd5262866",
+  "verified": true,
+  "zip": "D:\\ergasies\\cattle_face_identification\\artifacts\\evidence\\hardening_v2_visual_addendum_final.zip",
+  "zip_sha256": "f67e8fa63941eadc1c07335d371c19631cfdcdae72fe832b3b55570821de3e20"
+}

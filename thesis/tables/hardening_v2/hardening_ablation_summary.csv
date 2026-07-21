@@ -1,0 +1,4 @@
+protocol,paired_seeds,samples_per_seed,delta_accuracy,delta_accuracy_ci_low,delta_accuracy_ci_high,delta_macro_f1,delta_macro_f1_ci_low,delta_macro_f1_ci_high,base_errors_total,ablation_errors_total,discordant_errors_total,bootstrap_unit,bootstrap_resamples
+ablation_no_cutout_hardening_v2,5,1866,2.2204460492503132e-17,-0.000643086816720273,0.0006430868167202952,2.2204460492503132e-17,-0.0005606993006992759,0.0006129267204047649,8,8,4,training_seed_then_class_id,2000
+ablation_224_hardening_v2,5,1866,-0.002679528403001075,-0.005144694533762073,-0.0006404072883172437,-0.0027167687617849047,-0.004287947554662528,-0.0005651621330243104,8,33,27,training_seed_then_class_id,2000
+ablation_frozen_hardening_v2,5,1866,-0.0012861736334405017,-0.0031082529474812715,-0.00010718113612004921,-0.0012907992329214356,-0.002637738367075143,-9.420631182290861e-05,8,20,14,training_seed_then_class_id,2000

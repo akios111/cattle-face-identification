@@ -1,0 +1,183 @@
+{
+  "version": 2,
+  "expected_entries": 29,
+  "completed_entries": 29,
+  "complete": true,
+  "entries": [
+    {
+      "job_id": "train_efficientnetv2b3_paper_random_hardening_v2_train1_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_paper_random_hardening_v2_train1_split1_aug1",
+      "metadata_path": "artifacts/metadata/hardening_v2/metadata_paper_random_hardening_v2_split1_aug1.csv",
+      "completed": true
+    },
+    {
+      "job_id": "train_efficientnetv2b3_paper_random_hardening_v2_train2_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_paper_random_hardening_v2_train2_split1_aug1",
+      "metadata_path": "artifacts/metadata/hardening_v2/metadata_paper_random_hardening_v2_split1_aug1.csv",
+      "completed": true
+    },
+    {
+      "job_id": "train_efficientnetv2b3_paper_random_hardening_v2_train3_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_paper_random_hardening_v2_train3_split1_aug1",
+      "metadata_path": "artifacts/metadata/hardening_v2/metadata_paper_random_hardening_v2_split1_aug1.csv",
+      "completed": true
+    },
+    {
+      "job_id": "train_efficientnetv2b3_paper_random_hardening_v2_train4_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_paper_random_hardening_v2_train4_split1_aug1",
+      "metadata_path": "artifacts/metadata/hardening_v2/metadata_paper_random_hardening_v2_split1_aug1.csv",
+      "completed": true
+    },
+    {
+      "job_id": "train_efficientnetv2b3_paper_random_hardening_v2_train5_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_paper_random_hardening_v2_train5_split1_aug1",
+      "metadata_path": "artifacts/metadata/hardening_v2/metadata_paper_random_hardening_v2_split1_aug1.csv",
+      "completed": true
+    },
+    {
+      "job_id": "train_efficientnetv2b3_transform_holdout_hardening_v2_train1_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_transform_holdout_hardening_v2_train1_split1_aug1",
+      "metadata_path": "artifacts/metadata/hardening_v2/metadata_transform_holdout_hardening_v2_split1_aug1.csv",
+      "completed": true
+    },
+    {
+      "job_id": "train_efficientnetv2b3_transform_holdout_hardening_v2_train2_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_transform_holdout_hardening_v2_train2_split1_aug1",
+      "metadata_path": "artifacts/metadata/hardening_v2/metadata_transform_holdout_hardening_v2_split1_aug1.csv",
+      "completed": true
+    },
+    {
+      "job_id": "train_efficientnetv2b3_transform_holdout_hardening_v2_train3_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_transform_holdout_hardening_v2_train3_split1_aug1",
+      "metadata_path": "artifacts/metadata/hardening_v2/metadata_transform_holdout_hardening_v2_split1_aug1.csv",
+      "completed": true
+    },
+    {
+      "job_id": "train_efficientnetv2b3_transform_holdout_hardening_v2_train4_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_transform_holdout_hardening_v2_train4_split1_aug1",
+      "metadata_path": "artifacts/metadata/hardening_v2/metadata_transform_holdout_hardening_v2_split1_aug1.csv",
+      "completed": true
+    },
+    {
+      "job_id": "train_efficientnetv2b3_transform_holdout_hardening_v2_train5_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_transform_holdout_hardening_v2_train5_split1_aug1",
+      "metadata_path": "artifacts/metadata/hardening_v2/metadata_transform_holdout_hardening_v2_split1_aug1.csv",
+      "completed": true
+    },
+    {
+      "job_id": "train_efficientnetv2b3_paper_random_hardening_v2_train1_split2_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_paper_random_hardening_v2_train1_split2_aug1",
+      "metadata_path": "artifacts/metadata/hardening_v2/metadata_paper_random_hardening_v2_split2_aug1.csv",
+      "completed": true
+    },
+    {
+      "job_id": "train_efficientnetv2b3_paper_random_hardening_v2_train1_split3_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_paper_random_hardening_v2_train1_split3_aug1",
+      "metadata_path": "artifacts/metadata/hardening_v2/metadata_paper_random_hardening_v2_split3_aug1.csv",
+      "completed": true
+    },
+    {
+      "job_id": "train_efficientnetv2b3_paper_random_hardening_v2_train1_split4_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_paper_random_hardening_v2_train1_split4_aug1",
+      "metadata_path": "artifacts/metadata/hardening_v2/metadata_paper_random_hardening_v2_split4_aug1.csv",
+      "completed": true
+    },
+    {
+      "job_id": "train_efficientnetv2b3_paper_random_hardening_v2_train1_split5_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_paper_random_hardening_v2_train1_split5_aug1",
+      "metadata_path": "artifacts/metadata/hardening_v2/metadata_paper_random_hardening_v2_split5_aug1.csv",
+      "completed": true
+    },
+    {
+      "job_id": "train_efficientnetv2b3_ablation_no_cutout_hardening_v2_train1_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_ablation_no_cutout_hardening_v2_train1_split1_aug1",
+      "metadata_path": "artifacts/metadata/hardening_v2/metadata_paper_random_hardening_v2_split1_aug1.csv",
+      "completed": true
+    },
+    {
+      "job_id": "train_efficientnetv2b3_ablation_no_cutout_hardening_v2_train2_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_ablation_no_cutout_hardening_v2_train2_split1_aug1",
+      "metadata_path": "artifacts/metadata/hardening_v2/metadata_paper_random_hardening_v2_split1_aug1.csv",
+      "completed": true
+    },
+    {
+      "job_id": "train_efficientnetv2b3_ablation_no_cutout_hardening_v2_train3_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_ablation_no_cutout_hardening_v2_train3_split1_aug1",
+      "metadata_path": "artifacts/metadata/hardening_v2/metadata_paper_random_hardening_v2_split1_aug1.csv",
+      "completed": true
+    },
+    {
+      "job_id": "train_efficientnetv2b3_ablation_no_cutout_hardening_v2_train4_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_ablation_no_cutout_hardening_v2_train4_split1_aug1",
+      "metadata_path": "artifacts/metadata/hardening_v2/metadata_paper_random_hardening_v2_split1_aug1.csv",
+      "completed": true
+    },
+    {
+      "job_id": "train_efficientnetv2b3_ablation_no_cutout_hardening_v2_train5_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_ablation_no_cutout_hardening_v2_train5_split1_aug1",
+      "metadata_path": "artifacts/metadata/hardening_v2/metadata_paper_random_hardening_v2_split1_aug1.csv",
+      "completed": true
+    },
+    {
+      "job_id": "train_efficientnetv2b3_ablation_224_hardening_v2_train1_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_ablation_224_hardening_v2_train1_split1_aug1",
+      "metadata_path": "artifacts/metadata/hardening_v2/metadata_paper_random_hardening_v2_split1_aug1.csv",
+      "completed": true
+    },
+    {
+      "job_id": "train_efficientnetv2b3_ablation_224_hardening_v2_train2_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_ablation_224_hardening_v2_train2_split1_aug1",
+      "metadata_path": "artifacts/metadata/hardening_v2/metadata_paper_random_hardening_v2_split1_aug1.csv",
+      "completed": true
+    },
+    {
+      "job_id": "train_efficientnetv2b3_ablation_224_hardening_v2_train3_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_ablation_224_hardening_v2_train3_split1_aug1",
+      "metadata_path": "artifacts/metadata/hardening_v2/metadata_paper_random_hardening_v2_split1_aug1.csv",
+      "completed": true
+    },
+    {
+      "job_id": "train_efficientnetv2b3_ablation_224_hardening_v2_train4_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_ablation_224_hardening_v2_train4_split1_aug1",
+      "metadata_path": "artifacts/metadata/hardening_v2/metadata_paper_random_hardening_v2_split1_aug1.csv",
+      "completed": true
+    },
+    {
+      "job_id": "train_efficientnetv2b3_ablation_224_hardening_v2_train5_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_ablation_224_hardening_v2_train5_split1_aug1",
+      "metadata_path": "artifacts/metadata/hardening_v2/metadata_paper_random_hardening_v2_split1_aug1.csv",
+      "completed": true
+    },
+    {
+      "job_id": "train_efficientnetv2b3_ablation_frozen_hardening_v2_train1_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_ablation_frozen_hardening_v2_train1_split1_aug1",
+      "metadata_path": "artifacts/metadata/hardening_v2/metadata_paper_random_hardening_v2_split1_aug1.csv",
+      "completed": true
+    },
+    {
+      "job_id": "train_efficientnetv2b3_ablation_frozen_hardening_v2_train2_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_ablation_frozen_hardening_v2_train2_split1_aug1",
+      "metadata_path": "artifacts/metadata/hardening_v2/metadata_paper_random_hardening_v2_split1_aug1.csv",
+      "completed": true
+    },
+    {
+      "job_id": "train_efficientnetv2b3_ablation_frozen_hardening_v2_train3_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_ablation_frozen_hardening_v2_train3_split1_aug1",
+      "metadata_path": "artifacts/metadata/hardening_v2/metadata_paper_random_hardening_v2_split1_aug1.csv",
+      "completed": true
+    },
+    {
+      "job_id": "train_efficientnetv2b3_ablation_frozen_hardening_v2_train4_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_ablation_frozen_hardening_v2_train4_split1_aug1",
+      "metadata_path": "artifacts/metadata/hardening_v2/metadata_paper_random_hardening_v2_split1_aug1.csv",
+      "completed": true
+    },
+    {
+      "job_id": "train_efficientnetv2b3_ablation_frozen_hardening_v2_train5_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_ablation_frozen_hardening_v2_train5_split1_aug1",
+      "metadata_path": "artifacts/metadata/hardening_v2/metadata_paper_random_hardening_v2_split1_aug1.csv",
+      "completed": true
+    }
+  ],
+  "updated_at": "2026-07-13T02:15:19+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "entries": [
+    {
+      "job_id": "train_vgg16_paper_random_seed2026",
+      "run_dir": "artifacts/runs/matrix_vgg16_paper_random_seed2026",
+      "completed_at": "2026-07-11T10:10:26+00:00"
+    },
+    {
+      "job_id": "train_resnet50_paper_random_seed2026",
+      "run_dir": "artifacts/runs/matrix_resnet50_paper_random_seed2026",
+      "completed_at": "2026-07-11T10:15:05+00:00"
+    },
+    {
+      "job_id": "train_mobilenetv2_paper_random_seed2026",
+      "run_dir": "artifacts/runs/matrix_mobilenetv2_paper_random_seed2026",
+      "completed_at": "2026-07-11T10:19:25+00:00"
+    },
+    {
+      "job_id": "train_densenet121_paper_random_seed2026",
+      "run_dir": "artifacts/runs/matrix_densenet121_paper_random_seed2026",
+      "completed_at": "2026-07-11T10:26:44+00:00"
+    },
+    {
+      "job_id": "train_efficientnetb0_paper_random_seed2026",
+      "run_dir": "artifacts/runs/matrix_efficientnetb0_paper_random_seed2026",
+      "completed_at": "2026-07-11T10:31:44+00:00"
+    }
+  ],
+  "completed_entries": 5,
+  "complete": true,
+  "expected_job_ids": [
+    "train_densenet121_paper_random_seed2026",
+    "train_efficientnetb0_paper_random_seed2026",
+    "train_mobilenetv2_paper_random_seed2026",
+    "train_resnet50_paper_random_seed2026",
+    "train_vgg16_paper_random_seed2026"
+  ],
+  "expected_entries": 5,
+  "completed_at": "2026-07-11T14:11:46+00:00"
+}

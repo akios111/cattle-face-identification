@@ -1,0 +1,81 @@
+columns:
+  image_path:
+    required: true
+    type: string
+    description: "Path matching the evaluated metadata image_path."
+  ear_tag_status:
+    required: true
+    type: enum
+    values: ["present", "not_present"]
+  ear_tag_x1:
+    required_when: "ear_tag_status == present"
+    type: integer
+  ear_tag_y1:
+    required_when: "ear_tag_status == present"
+    type: integer
+  ear_tag_x2:
+    required_when: "ear_tag_status == present"
+    type: integer
+  ear_tag_y2:
+    required_when: "ear_tag_status == present"
+    type: integer
+  paint_mark_status:
+    required: true
+    type: enum
+    values: ["present", "not_present"]
+  paint_mark_x1:
+    required_when: "paint_mark_status == present"
+    type: integer
+  paint_mark_y1:
+    required_when: "paint_mark_status == present"
+    type: integer
+  paint_mark_x2:
+    required_when: "paint_mark_status == present"
+    type: integer
+  paint_mark_y2:
+    required_when: "paint_mark_status == present"
+    type: integer
+  face_bbox_status:
+    required: true
+    type: enum
+    values: ["present", "not_present"]
+  face_bbox_x1:
+    required_when: "face_bbox_status == present"
+    type: integer
+  face_bbox_y1:
+    required_when: "face_bbox_status == present"
+    type: integer
+  face_bbox_x2:
+    required_when: "face_bbox_status == present"
+    type: integer
+  face_bbox_y2:
+    required_when: "face_bbox_status == present"
+    type: integer
+  background_status:
+    required: true
+    type: enum
+    values: ["present", "not_present"]
+  background_x1:
+    required_when: "background_status == present"
+    type: integer
+  background_y1:
+    required_when: "background_status == present"
+    type: integer
+  background_x2:
+    required_when: "background_status == present"
+    type: integer
+  background_y2:
+    required_when: "background_status == present"
+    type: integer
+  annotator:
+    required: true
+    type: string
+  notes:
+    required: false
+    type: string
+
+rules:
+  coordinates_are_pixel_bounds: true
+  x2_greater_than_x1: true
+  y2_greater_than_y1: true
+  not_present_regions_must_leave_coordinates_empty: true

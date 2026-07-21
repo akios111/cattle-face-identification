@@ -1,0 +1,10 @@
+numpy
+pandas
+Pillow
+PyYAML
+scikit-learn
+scikit-image
+ImageHash
+tensorflow
+matplotlib
+opencv-python-headless

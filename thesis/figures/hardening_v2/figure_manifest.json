@@ -1,0 +1,15 @@
+{
+  "figures": [
+    "thesis/figures/hardening_v2/pipeline.png",
+    "thesis/figures/hardening_v2/augmentation_montage.png",
+    "thesis/figures/hardening_v2/split_protocols.png",
+    "thesis/figures/hardening_v2/shortcut_comparison.png",
+    "thesis/figures/hardening_v2/learning_curves.png",
+    "thesis/figures/hardening_v2/robustness_controls.png",
+    "thesis/figures/hardening_v2/holstein_curves.png",
+    "thesis/figures/hardening_v2/checkpoint_overlap.png",
+    "thesis/figures/hardening_v2/holstein_error_gallery.png",
+    "thesis/figures/hardening_v2/gradcam_triptych.png"
+  ],
+  "count": 10
+}

@@ -1,0 +1,302 @@
+[
+  {
+    "augmentation_seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "paper_random_hardening_v2",
+    "run_id": "matrix_efficientnetv2b3_paper_random_hardening_v2_train1_split1_aug1",
+    "sha256": "52b671d28bc8b4abcf7ecfae597ea1e1f6cddd027ab71bc413571dc2f3d73288",
+    "size_bytes": 134190348,
+    "split_seed": 1,
+    "training_seed": 1
+  },
+  {
+    "augmentation_seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "paper_random_hardening_v2",
+    "run_id": "matrix_efficientnetv2b3_paper_random_hardening_v2_train2_split1_aug1",
+    "sha256": "d17054091b0e6116626459b7fc095800dc2f68aa62df5a2f192d93321a1f5500",
+    "size_bytes": 134190348,
+    "split_seed": 1,
+    "training_seed": 2
+  },
+  {
+    "augmentation_seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "paper_random_hardening_v2",
+    "run_id": "matrix_efficientnetv2b3_paper_random_hardening_v2_train3_split1_aug1",
+    "sha256": "3f58edead21fc5d3b856df4fcef196ca3c502ade615f79e7413a639c95aeb982",
+    "size_bytes": 134190348,
+    "split_seed": 1,
+    "training_seed": 3
+  },
+  {
+    "augmentation_seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "paper_random_hardening_v2",
+    "run_id": "matrix_efficientnetv2b3_paper_random_hardening_v2_train4_split1_aug1",
+    "sha256": "32e323c1dac56edcca1422e5bc179fae0d82aa03430a141a11d787649f9db527",
+    "size_bytes": 134190348,
+    "split_seed": 1,
+    "training_seed": 4
+  },
+  {
+    "augmentation_seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "paper_random_hardening_v2",
+    "run_id": "matrix_efficientnetv2b3_paper_random_hardening_v2_train5_split1_aug1",
+    "sha256": "58ca33fac44e97159a3f1469488b9017c8283139304b4c17e6df6bbe42c25c56",
+    "size_bytes": 134190348,
+    "split_seed": 1,
+    "training_seed": 5
+  },
+  {
+    "augmentation_seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "transform_holdout_hardening_v2",
+    "run_id": "matrix_efficientnetv2b3_transform_holdout_hardening_v2_train1_split1_aug1",
+    "sha256": "3187862323769ddfc54218b6a56eefc8b2bd2cb21268981d01fdebc86824b41b",
+    "size_bytes": 134190348,
+    "split_seed": 1,
+    "training_seed": 1
+  },
+  {
+    "augmentation_seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "transform_holdout_hardening_v2",
+    "run_id": "matrix_efficientnetv2b3_transform_holdout_hardening_v2_train2_split1_aug1",
+    "sha256": "d5fb6d9a52271082c985cfd1fc8a89f5174b04a9456248078af6aa5d6f4463d1",
+    "size_bytes": 134190348,
+    "split_seed": 1,
+    "training_seed": 2
+  },
+  {
+    "augmentation_seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "transform_holdout_hardening_v2",
+    "run_id": "matrix_efficientnetv2b3_transform_holdout_hardening_v2_train3_split1_aug1",
+    "sha256": "73dda4ca3dbb78d19fe8aece4e69e4ba56cd416b145a41628d4122881194b1e0",
+    "size_bytes": 134190348,
+    "split_seed": 1,
+    "training_seed": 3
+  },
+  {
+    "augmentation_seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "transform_holdout_hardening_v2",
+    "run_id": "matrix_efficientnetv2b3_transform_holdout_hardening_v2_train4_split1_aug1",
+    "sha256": "15a82d69debae39bd23fcba01ce29073be45966d873c5e7e61866636202e21c3",
+    "size_bytes": 134190348,
+    "split_seed": 1,
+    "training_seed": 4
+  },
+  {
+    "augmentation_seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "transform_holdout_hardening_v2",
+    "run_id": "matrix_efficientnetv2b3_transform_holdout_hardening_v2_train5_split1_aug1",
+    "sha256": "9bcd40c4548a8f336f129795fc9302eaaab4f62ace6b7e73e8981065f2958a40",
+    "size_bytes": 134190348,
+    "split_seed": 1,
+    "training_seed": 5
+  },
+  {
+    "augmentation_seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "paper_random_hardening_v2",
+    "run_id": "matrix_efficientnetv2b3_paper_random_hardening_v2_train1_split2_aug1",
+    "sha256": "54ba51e6887fd6b4485577e8c2d9607c6c936551a3b3e95768e166cc6de94f96",
+    "size_bytes": 134190348,
+    "split_seed": 2,
+    "training_seed": 1
+  },
+  {
+    "augmentation_seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "paper_random_hardening_v2",
+    "run_id": "matrix_efficientnetv2b3_paper_random_hardening_v2_train1_split3_aug1",
+    "sha256": "c17d2a90804e07762b5e2faa313e70a10e3a3314814516e6c7edebb48a61a01e",
+    "size_bytes": 134190348,
+    "split_seed": 3,
+    "training_seed": 1
+  },
+  {
+    "augmentation_seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "paper_random_hardening_v2",
+    "run_id": "matrix_efficientnetv2b3_paper_random_hardening_v2_train1_split4_aug1",
+    "sha256": "5c0f1d362151eb39b9ba9ae86d663b3ee16d8923746ee49b936e6901082d0722",
+    "size_bytes": 134190348,
+    "split_seed": 4,
+    "training_seed": 1
+  },
+  {
+    "augmentation_seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "paper_random_hardening_v2",
+    "run_id": "matrix_efficientnetv2b3_paper_random_hardening_v2_train1_split5_aug1",
+    "sha256": "bd06434ac1079c91e508628f678ed53be93843b7ced790f2de5f441334bb7846",
+    "size_bytes": 134190348,
+    "split_seed": 5,
+    "training_seed": 1
+  },
+  {
+    "augmentation_seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_no_cutout_hardening_v2",
+    "run_id": "matrix_efficientnetv2b3_ablation_no_cutout_hardening_v2_train1_split1_aug1",
+    "sha256": "c877309af97973f3c6466fb29cef38777d5b77d56388acfdda84346e90300f5e",
+    "size_bytes": 134190348,
+    "split_seed": 1,
+    "training_seed": 1
+  },
+  {
+    "augmentation_seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_no_cutout_hardening_v2",
+    "run_id": "matrix_efficientnetv2b3_ablation_no_cutout_hardening_v2_train2_split1_aug1",
+    "sha256": "bf1f0f5b0a53bb3b8ec75f0ac5999e67cb0b4241367ccb5c1f2500b59aaf0617",
+    "size_bytes": 134190348,
+    "split_seed": 1,
+    "training_seed": 2
+  },
+  {
+    "augmentation_seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_no_cutout_hardening_v2",
+    "run_id": "matrix_efficientnetv2b3_ablation_no_cutout_hardening_v2_train3_split1_aug1",
+    "sha256": "7a3f49c0b0340afc832a26f25d20b647f215abc6e7c5417fc5e61f8ba0e53eec",
+    "size_bytes": 134190348,
+    "split_seed": 1,
+    "training_seed": 3
+  },
+  {
+    "augmentation_seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_no_cutout_hardening_v2",
+    "run_id": "matrix_efficientnetv2b3_ablation_no_cutout_hardening_v2_train4_split1_aug1",
+    "sha256": "8f2a299984e0248d676891219eda7469e9362b3f5905389e164a808ef9128b42",
+    "size_bytes": 134190348,
+    "split_seed": 1,
+    "training_seed": 4
+  },
+  {
+    "augmentation_seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_no_cutout_hardening_v2",
+    "run_id": "matrix_efficientnetv2b3_ablation_no_cutout_hardening_v2_train5_split1_aug1",
+    "sha256": "ee3001bb7209614977dc6f654df1139d35a62bd92162afc895c89edc8c8642fc",
+    "size_bytes": 134190348,
+    "split_seed": 1,
+    "training_seed": 5
+  },
+  {
+    "augmentation_seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_224_hardening_v2",
+    "run_id": "matrix_efficientnetv2b3_ablation_224_hardening_v2_train1_split1_aug1",
+    "sha256": "4a9ecacf268d50d2bcd89d202c68cbf74397bddafea6bee921664ab10490efbd",
+    "size_bytes": 134189830,
+    "split_seed": 1,
+    "training_seed": 1
+  },
+  {
+    "augmentation_seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_224_hardening_v2",
+    "run_id": "matrix_efficientnetv2b3_ablation_224_hardening_v2_train2_split1_aug1",
+    "sha256": "ffea01a99e0f9cf99a449bf4a011a27a6ebd83b593a69e06ffa510c3dff9a1b3",
+    "size_bytes": 134189830,
+    "split_seed": 1,
+    "training_seed": 2
+  },
+  {
+    "augmentation_seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_224_hardening_v2",
+    "run_id": "matrix_efficientnetv2b3_ablation_224_hardening_v2_train3_split1_aug1",
+    "sha256": "a086c187b3b390e00351e486b87288b0165b1d6353bac49bb64e2fc2035202a4",
+    "size_bytes": 134189830,
+    "split_seed": 1,
+    "training_seed": 3
+  },
+  {
+    "augmentation_seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_224_hardening_v2",
+    "run_id": "matrix_efficientnetv2b3_ablation_224_hardening_v2_train4_split1_aug1",
+    "sha256": "d384f8b8a86e3aecac6205e811087dacb09bfe193af5ee7dc95a700e3843f8cb",
+    "size_bytes": 134189830,
+    "split_seed": 1,
+    "training_seed": 4
+  },
+  {
+    "augmentation_seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_224_hardening_v2",
+    "run_id": "matrix_efficientnetv2b3_ablation_224_hardening_v2_train5_split1_aug1",
+    "sha256": "2c0ee8cf4bff3b19eb8bf189135fa877d7a74f77d179b05ccda3af9e15d72f48",
+    "size_bytes": 134189830,
+    "split_seed": 1,
+    "training_seed": 5
+  },
+  {
+    "augmentation_seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_frozen_hardening_v2",
+    "run_id": "matrix_efficientnetv2b3_ablation_frozen_hardening_v2_train1_split1_aug1",
+    "sha256": "0518f56b6a40516d3f7e3650e0d3e8b1cf8c945c84346eef2d5989a80eee4352",
+    "size_bytes": 62730453,
+    "split_seed": 1,
+    "training_seed": 1
+  },
+  {
+    "augmentation_seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_frozen_hardening_v2",
+    "run_id": "matrix_efficientnetv2b3_ablation_frozen_hardening_v2_train2_split1_aug1",
+    "sha256": "883eba0925fa39561eeba9581795c1e0ca104a20dced42d4dce6dc2855c4d9d0",
+    "size_bytes": 62730453,
+    "split_seed": 1,
+    "training_seed": 2
+  },
+  {
+    "augmentation_seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_frozen_hardening_v2",
+    "run_id": "matrix_efficientnetv2b3_ablation_frozen_hardening_v2_train3_split1_aug1",
+    "sha256": "f4e3fd64e954de1151c689c9e5bbcd38fdbe21fd987a7542b2c146a96e756662",
+    "size_bytes": 62730453,
+    "split_seed": 1,
+    "training_seed": 3
+  },
+  {
+    "augmentation_seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_frozen_hardening_v2",
+    "run_id": "matrix_efficientnetv2b3_ablation_frozen_hardening_v2_train4_split1_aug1",
+    "sha256": "68ed29eabf208fea2d62aa6839aee442b87296f93e1ee8704be979f8ca00530b",
+    "size_bytes": 62730453,
+    "split_seed": 1,
+    "training_seed": 4
+  },
+  {
+    "augmentation_seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "ablation_frozen_hardening_v2",
+    "run_id": "matrix_efficientnetv2b3_ablation_frozen_hardening_v2_train5_split1_aug1",
+    "sha256": "62c11ae3678a8d7018edd95a0908392d6adfffe27e8c78272c83dfe4061f25c9",
+    "size_bytes": 62730453,
+    "split_seed": 1,
+    "training_seed": 5
+  },
+  {
+    "augmentation_seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "imagenet_only",
+    "run_id": "imagenet_only_efficientnetv2b3_hardening_v2",
+    "sha256": "b5131482764d3cc762b238df9e7de1a755f9dbaf138495cbeba447ec5b0bf586",
+    "size_bytes": 53143612,
+    "split_seed": 1,
+    "training_seed": 0
+  }
+]

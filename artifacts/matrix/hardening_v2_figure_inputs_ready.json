@@ -1,0 +1,165 @@
+{
+  "cattlessfr": {
+    "dataset_commit": "099d749e9a766ff0c9b9fbc49112c6b77b29542e",
+    "source_file": "IMG_20250414_101607.png",
+    "verified_variants": [
+      {
+        "augmentation_id": "original",
+        "sample_id": "000:IMG_20250414_101607.png:original",
+        "sha256": "2c7e4b454660e3ff6d51fe8b1426468c9297ae516bae6778047bc91114d2ce4a"
+      },
+      {
+        "augmentation_id": "flip_horizontal",
+        "sample_id": "000:IMG_20250414_101607.png:flip_horizontal",
+        "sha256": "aadb3502592ad27a4b648313d6dcd88f7a6b5e4182a6364bee6feb5483eac292"
+      },
+      {
+        "augmentation_id": "flip_vertical",
+        "sample_id": "000:IMG_20250414_101607.png:flip_vertical",
+        "sha256": "2d9beead8ead2250c26f3d96233e7a8ade7693490ad9e831e29f91e7729b8363"
+      },
+      {
+        "augmentation_id": "rotate_neg_15",
+        "sample_id": "000:IMG_20250414_101607.png:rotate_neg_15",
+        "sha256": "bcc7665eaedb026c5e63c06ef11ea058a1c55fec63b23238d18956fdceafec3f"
+      },
+      {
+        "augmentation_id": "rotate_pos_15",
+        "sample_id": "000:IMG_20250414_101607.png:rotate_pos_15",
+        "sha256": "73a15038e8e5451de49aca7087aed067ed8e863c5cbe9bc8d74cf07b456e2a54"
+      },
+      {
+        "augmentation_id": "brightness_up",
+        "sample_id": "000:IMG_20250414_101607.png:brightness_up",
+        "sha256": "27d07b79c54f0a57a4e9d903f86784fccc288bc618a18a4cac660351a0888b91"
+      },
+      {
+        "augmentation_id": "brightness_down",
+        "sample_id": "000:IMG_20250414_101607.png:brightness_down",
+        "sha256": "ec27fecf0f7e38aa706537cff7aa5f25d48c90a0a6bfbd65dfeeff1d6ca28fa8"
+      },
+      {
+        "augmentation_id": "contrast_up",
+        "sample_id": "000:IMG_20250414_101607.png:contrast_up",
+        "sha256": "49fd6fbede5dae39c087de2eb2f140a866dcb29c5314e4f8875966ebfb42ed24"
+      },
+      {
+        "augmentation_id": "contrast_down",
+        "sample_id": "000:IMG_20250414_101607.png:contrast_down",
+        "sha256": "af0bc790ef62ace21653d425acf3be48242f7e83ab5d3850d53bc4034ca3ea94"
+      },
+      {
+        "augmentation_id": "gaussian_noise",
+        "sample_id": "000:IMG_20250414_101607.png:gaussian_noise",
+        "sha256": "6d3276c3a680398dc615cfd4bc97d6f3ff33c73c306b72ae1e06d5161e75d7ce"
+      },
+      {
+        "augmentation_id": "blur",
+        "sample_id": "000:IMG_20250414_101607.png:blur",
+        "sha256": "62b170857df47e6de671b42d8c080949fb3586bce66b4267e1d18f74433acfc1"
+      },
+      {
+        "augmentation_id": "sharpen",
+        "sample_id": "000:IMG_20250414_101607.png:sharpen",
+        "sha256": "bb7a03c46a49de42216b59f477233f120f41fc163a76d158cc32e9e81529595a"
+      },
+      {
+        "augmentation_id": "translate_left",
+        "sample_id": "000:IMG_20250414_101607.png:translate_left",
+        "sha256": "9bbd85401bd92c29c96770b26b4391a23a66f2e65a7b5b0b18f825c93cea1b03"
+      },
+      {
+        "augmentation_id": "translate_right",
+        "sample_id": "000:IMG_20250414_101607.png:translate_right",
+        "sha256": "0d05eac4a04b89b5ff4f91bcd8670d232ec2589cc10502380d5094e153f590b4"
+      },
+      {
+        "augmentation_id": "zoom_in",
+        "sample_id": "000:IMG_20250414_101607.png:zoom_in",
+        "sha256": "3e8edccb9c2e8b7445d24f787c93fc988b7db405b144823901665900cdb00f3f"
+      },
+      {
+        "augmentation_id": "zoom_out",
+        "sample_id": "000:IMG_20250414_101607.png:zoom_out",
+        "sha256": "6d807b999ad270f176cd29ead6d35375eed55e8f88ea27e560289dce58c5da89"
+      },
+      {
+        "augmentation_id": "shear_x",
+        "sample_id": "000:IMG_20250414_101607.png:shear_x",
+        "sha256": "3b5808435bf9a11e58e12a2749ca70deac78a88637dbd9aae128c943fc83bac9"
+      },
+      {
+        "augmentation_id": "shear_y",
+        "sample_id": "000:IMG_20250414_101607.png:shear_y",
+        "sha256": "4f2013d596530a9b8daf99aac8134c3cad764b2eb1551ac543814c15a80866b7"
+      },
+      {
+        "augmentation_id": "cutout_center",
+        "sample_id": "000:IMG_20250414_101607.png:cutout_center",
+        "sha256": "063d1593d32efb84f8a838574d0ba17aee9d20ab57ab8733b0c44c085fed10e6"
+      },
+      {
+        "augmentation_id": "cutout_random",
+        "sample_id": "000:IMG_20250414_101607.png:cutout_random",
+        "sha256": "06f78e96a5f3dd1e5ace1945547c0aec442781c1865bc8d59c53b20a6add9e1d"
+      }
+    ]
+  },
+  "ephemeral_runtime_inputs": true,
+  "holstein2025": {
+    "dataset_commit": "b905600ca4153e8435c1a2c33306a2783de6fbdf",
+    "error_run_id": "matrix_efficientnetv2b3_paper_random_hardening_v2_train1_split1_aug1",
+    "verified_errors": [
+      {
+        "animal_id": "9001",
+        "predicted_animal_id": "9003",
+        "relative_path": "query1/9001/0001_q1.png",
+        "sha256": "08c83fae2905d0eededf8f89ececf51020bb2c4c7c95b424b081e41f0ef73e75"
+      },
+      {
+        "animal_id": "9001",
+        "predicted_animal_id": "9007",
+        "relative_path": "query1/9001/0001_q2.png",
+        "sha256": "4201d39791fb996df11ed9e36207da3054120a12733ffedd24289f568694eabd"
+      },
+      {
+        "animal_id": "9001",
+        "predicted_animal_id": "9005",
+        "relative_path": "query1/9001/0001_q3.png",
+        "sha256": "1a110266fbc44f19147042ca3a29caa78a6ae9a0e95fe2689f2e16663b3bb6cc"
+      },
+      {
+        "animal_id": "9001",
+        "predicted_animal_id": "9007",
+        "relative_path": "query1/9001/0001_q4.png",
+        "sha256": "8caf4f503de73005e295184b898382e0299b3689a30b73fa864316b35aa7a5cc"
+      },
+      {
+        "animal_id": "9001",
+        "predicted_animal_id": "9005",
+        "relative_path": "query1/9001/0001_q5.png",
+        "sha256": "3002178ce8604a4b27337354ac995b887e394edb74ec096a69845be2166d0457"
+      },
+      {
+        "animal_id": "9001",
+        "predicted_animal_id": "9003",
+        "relative_path": "query1/9001/0001_q6.png",
+        "sha256": "b8473b3b2e8291560d6600fbcede182cf480fcd7c20ec9d7a074ab0e7f07f769"
+      },
+      {
+        "animal_id": "9001",
+        "predicted_animal_id": "9005",
+        "relative_path": "query1/9001/0001_q7.png",
+        "sha256": "502dd23c923862b8013c6eabed1cb5f4e9497e5da4ebeab7f45fee33a3f4ca31"
+      },
+      {
+        "animal_id": "9001",
+        "predicted_animal_id": "9005",
+        "relative_path": "query1/9001/0001_q8.png",
+        "sha256": "9075e363d97646b4b03f2d38ab7faf5f601d27ebe7ca829141ceda623edf0239"
+      }
+    ]
+  },
+  "protocol_version": "hardening_v2",
+  "raw_dataset_images_bundled": false
+}

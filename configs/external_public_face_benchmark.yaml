@@ -1,0 +1,18 @@
+dataset:
+  name: cattely
+  source_url: https://github.com/aideep1400/Cattely-Cattle-Face-Images-Dataset
+  raw_dir: data/external_public/Cattely-Cattle-Face-Images-Dataset
+  expected_animals: 50
+  expected_images_per_animal: 50
+  protocol: external_public_face_benchmark
+
+split:
+  seed: 2026
+  train_ratio: 0.6
+  validation_ratio: 0.2
+
+outputs:
+  metadata: artifacts/metadata/external_public_face_benchmark_cattely.csv
+  hash_manifest: artifacts/metadata/external_public_face_benchmark_cattely_hashes.csv
+  readiness_report: thesis/gates/external-public-benchmark-readiness.md
+  tables_dir: thesis/tables

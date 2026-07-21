@@ -1,0 +1,8 @@
+{
+  "output_csv": "thesis/tables/hardening_v2/hardening_gradcam_faithfulness.csv",
+  "output_tex": "thesis/tables/hardening_v2/hardening_gradcam_faithfulness.tex",
+  "rows": 2,
+  "schema_version": 1,
+  "source_addendum_sha256": "515b09e2941d6bdda610da5ab13c220b920be45ff0695b216fc0317e0f77cc26",
+  "source_evidence_sha256": "1bea1de16b76bc54d5a3514e84d49c26f2af86ff5f3b871454798a515945a03e"
+}

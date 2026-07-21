@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "source": "Google Drive thesis/tables",
+  "imported_at": "2026-07-11",
+  "provenance_note": "Seed-1 aggregate tables imported without changing source values. Blank seed fields in legacy summaries are resolved from run_id only during scoped normalization.",
+  "files": [
+    {
+      "name": "ablation_summary.csv",
+      "drive_id": "1FOPtTj9zH8ABMfwuYQDFHPiOSu6fcF7A",
+      "modified_time": "2026-07-10T22:32:39.183Z",
+      "content_chars": 2041
+    },
+    {
+      "name": "holstein2025_zero_shot_summary.csv",
+      "drive_id": "1KPPBB0N_6SeBCqX4IBvrYSBp_hkk4ge4",
+      "modified_time": "2026-07-10T22:32:43.973Z",
+      "content_chars": 6253
+    },
+    {
+      "name": "holstein2025_in_domain_summary.csv",
+      "drive_id": "1kGmUoZ1IU1lbzhmpm7Bi16D4PP_JzmnS",
+      "modified_time": "2026-07-10T22:32:47.118Z",
+      "content_chars": 1122
+    },
+    {
+      "name": "model_comparison.csv",
+      "drive_id": "1sILiIm8pJMTlVrIFJ4I14GS1GLIdCAmv",
+      "modified_time": "2026-07-10T22:32:16.108Z",
+      "content_chars": 5869
+    },
+    {
+      "name": "run_manifest_summary.csv",
+      "drive_id": "1kE6kqELYy_TZ8AMAtYY51EOSkQUOu3UP",
+      "modified_time": "2026-07-10T22:32:43.945Z",
+      "content_chars": 5060
+    },
+    {
+      "name": "worst_classes_efficientnetv2b3_paper_random_seed1.csv",
+      "drive_id": "1ABMb1UJPIfDv7FVGjzSsXvLn0s30AMqb",
+      "modified_time": "2026-07-10T22:31:14.564Z",
+      "content_chars": 897
+    },
+    {
+      "name": "worst_classes_efficientnetv2b3_transform_holdout_seed1.csv",
+      "drive_id": "16cMEB-TgDruOLru0o-A2Mq9fvPcs8fe4",
+      "modified_time": "2026-07-10T22:31:14.582Z",
+      "content_chars": 764
+    },
+    {
+      "name": "gradcam_figure_index.csv",
+      "drive_id": "1VnQbaOXkujmAGFujbHKXUYD_SwxbRNcU",
+      "modified_time": "2026-07-10T14:28:25.960Z",
+      "content_chars": 10178
+    }
+  ]
+}

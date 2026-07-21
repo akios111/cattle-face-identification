@@ -1,0 +1,3 @@
+protocol,training_seeds,split_seed,augmentation_seed,test_samples,test_sample_alignment,accuracy_mean,accuracy_sample_std,accuracy_ci_low,accuracy_ci_high,macro_f1_mean,macro_f1_sample_std,bootstrap_unit,bootstrap_resamples,test_set_sha256
+paper_random_hardening_v2,5,1,1,1866,identical,0.9991425509110397,0.0004793286125401203,0.9977491961414791,1.0,0.9991365547635646,0.0004826805608796635,training_seed_then_class_id,2000,2e7bac3ea6f0a5ff1646b7bb6078545181de7fa18244fc8bdc4a7d6f9b628520
+transform_holdout_hardening_v2,5,1,1,1244,identical,1.0,0.0,1.0,1.0,1.0,0.0,training_seed_then_class_id,2000,a94f077bbc5a90cf6b42e7451d8f2763db107c1a6e2563033cb8472b7b7cc7a4

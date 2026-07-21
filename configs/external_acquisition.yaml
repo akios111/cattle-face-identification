@@ -1,0 +1,31 @@
+dataset:
+  manifest_path: "data/external_acquisition/manifest.csv"
+  image_root: "data/external_acquisition/images"
+  minimum_animals: 100
+  minimum_images_per_animal: 3
+  protocol: "external_acquisition_holdout"
+  required_columns:
+    - "image_path"
+    - "class_id"
+    - "animal_id"
+    - "acquisition_id"
+    - "capture_date"
+    - "camera_id"
+    - "lighting"
+    - "pose"
+    - "operator"
+    - "split"
+    - "notes"
+  allowed_splits:
+    - "test"
+
+leakage_policy:
+  forbid_train_validation_usage: true
+  forbid_duplicate_image_paths: true
+  forbid_acquisition_overlap_with_training: true
+  hash_algorithm: "sha256"
+
+outputs:
+  validated_metadata: "artifacts/metadata/external_acquisition_holdout.csv"
+  hash_manifest: "artifacts/metadata/external_acquisition_hashes.csv"
+  readiness_report: "thesis/gates/external-validation-readiness.md"

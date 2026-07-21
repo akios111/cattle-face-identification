@@ -1,0 +1,31 @@
+dataset:
+  repo_url: "https://github.com/MachineLearningVisionRG/CattleSSFR.git"
+  commit_sha: ""
+  raw_dir: "data/raw/CattleSSFR"
+  image_subdir: "cattle_images"
+  expected_images: 311
+
+preprocessing:
+  image_size: [224, 224]
+
+augmentation:
+  profile: "all"
+
+split:
+  protocol: "paper_random"
+  alternatives:
+    - "paper_random"
+    - "transform_holdout"
+    - "augmentation_ablation"
+
+training:
+  epochs: 100
+  batch_size: 32
+  learning_rate: 0.001
+  dropout: 0.2
+  seed: 2026
+
+output:
+  processed_dir: "artifacts/processed"
+  metadata_dir: "artifacts/metadata"
+  run_dir: "artifacts/runs"

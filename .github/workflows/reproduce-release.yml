@@ -1,0 +1,38 @@
+name: reproduce release evidence
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Release tag whose evidence asset will be reproduced
+        required: true
+        default: v1.0.0
+
+permissions:
+  contents: read
+
+jobs:
+  evidence:
+    runs-on: ubuntu-latest
+    env:
+      RELEASE_TAG: ${{ github.event.release.tag_name || inputs.tag }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.RELEASE_TAG }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Download immutable evidence asset
+        run: gh release download "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --pattern hardening_v2_evidence.zip --dir release-assets
+      - name: Reproduce scientific tables and run tests
+        run: ./reproduce.sh release-assets/hardening_v2_evidence.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: clean-reproduction-report-${{ env.RELEASE_TAG }}
+          path: artifacts/reproduction/clean_clone_reproduction.json
+          if-no-files-found: error

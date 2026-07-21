@@ -1,0 +1,182 @@
+[
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "paper_random",
+    "training_scope": "source"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "efficientnetv2b3",
+    "source_protocol": "paper_random",
+    "evaluation": "holstein2025_zero_shot_reid",
+    "training_scope": "source",
+    "metadata": "artifacts/metadata/holstein2025_open_set.csv"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "efficientnetv2b3",
+    "protocol": "transform_holdout",
+    "training_scope": "source"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 1,
+    "model": "efficientnetv2b3",
+    "source_protocol": "transform_holdout",
+    "evaluation": "holstein2025_zero_shot_reid",
+    "training_scope": "source",
+    "metadata": "artifacts/metadata/holstein2025_open_set.csv"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "efficientnetv2b3",
+    "protocol": "paper_random",
+    "training_scope": "source"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "efficientnetv2b3",
+    "source_protocol": "paper_random",
+    "evaluation": "holstein2025_zero_shot_reid",
+    "training_scope": "source",
+    "metadata": "artifacts/metadata/holstein2025_open_set.csv"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "efficientnetv2b3",
+    "protocol": "transform_holdout",
+    "training_scope": "source"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 2,
+    "model": "efficientnetv2b3",
+    "source_protocol": "transform_holdout",
+    "evaluation": "holstein2025_zero_shot_reid",
+    "training_scope": "source",
+    "metadata": "artifacts/metadata/holstein2025_open_set.csv"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "efficientnetv2b3",
+    "protocol": "paper_random",
+    "training_scope": "source"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "efficientnetv2b3",
+    "source_protocol": "paper_random",
+    "evaluation": "holstein2025_zero_shot_reid",
+    "training_scope": "source",
+    "metadata": "artifacts/metadata/holstein2025_open_set.csv"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "efficientnetv2b3",
+    "protocol": "transform_holdout",
+    "training_scope": "source"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 3,
+    "model": "efficientnetv2b3",
+    "source_protocol": "transform_holdout",
+    "evaluation": "holstein2025_zero_shot_reid",
+    "training_scope": "source",
+    "metadata": "artifacts/metadata/holstein2025_open_set.csv"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "efficientnetv2b3",
+    "protocol": "paper_random",
+    "training_scope": "source"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "efficientnetv2b3",
+    "source_protocol": "paper_random",
+    "evaluation": "holstein2025_zero_shot_reid",
+    "training_scope": "source",
+    "metadata": "artifacts/metadata/holstein2025_open_set.csv"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "efficientnetv2b3",
+    "protocol": "transform_holdout",
+    "training_scope": "source"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 4,
+    "model": "efficientnetv2b3",
+    "source_protocol": "transform_holdout",
+    "evaluation": "holstein2025_zero_shot_reid",
+    "training_scope": "source",
+    "metadata": "artifacts/metadata/holstein2025_open_set.csv"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "efficientnetv2b3",
+    "protocol": "paper_random",
+    "training_scope": "source"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "efficientnetv2b3",
+    "source_protocol": "paper_random",
+    "evaluation": "holstein2025_zero_shot_reid",
+    "training_scope": "source",
+    "metadata": "artifacts/metadata/holstein2025_open_set.csv"
+  },
+  {
+    "kind": "train",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "efficientnetv2b3",
+    "protocol": "transform_holdout",
+    "training_scope": "source"
+  },
+  {
+    "kind": "evaluate",
+    "base_config": "configs/cattlessfr_colab_proplus.yaml",
+    "seed": 5,
+    "model": "efficientnetv2b3",
+    "source_protocol": "transform_holdout",
+    "evaluation": "holstein2025_zero_shot_reid",
+    "training_scope": "source",
+    "metadata": "artifacts/metadata/holstein2025_open_set.csv"
+  }
+]

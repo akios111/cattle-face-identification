@@ -1,0 +1,130 @@
+{
+  "shard_index": 0,
+  "shard_count": 5,
+  "entries": [
+    {
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_paper_random_seed1",
+      "evaluation_protocol": "holstein2025_zero_shot_reid",
+      "completed_at": "2026-07-10T15:01:47+00:00"
+    },
+    {
+      "run_dir": "artifacts/runs/matrix_convnexttiny_paper_random_seed1",
+      "evaluation_protocol": "holstein2025_zero_shot_reid",
+      "completed_at": "2026-07-10T15:26:04+00:00"
+    },
+    {
+      "run_dir": "artifacts/runs/matrix_efficientnetb0_paper_random_seed1",
+      "evaluation_protocol": "holstein2025_zero_shot_reid",
+      "completed_at": "2026-07-10T15:41:22+00:00"
+    },
+    {
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_transform_holdout_seed1",
+      "evaluation_protocol": "holstein2025_zero_shot_reid",
+      "completed_at": "2026-07-10T15:56:01+00:00"
+    },
+    {
+      "run_dir": "artifacts/runs/matrix_convnexttiny_transform_holdout_seed1",
+      "evaluation_protocol": "holstein2025_zero_shot_reid",
+      "completed_at": "2026-07-10T16:20:14+00:00"
+    },
+    {
+      "run_dir": "artifacts/runs/matrix_efficientnetb0_transform_holdout_seed1",
+      "evaluation_protocol": "holstein2025_zero_shot_reid",
+      "completed_at": "2026-07-10T16:36:43+00:00"
+    },
+    {
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_ablation_geometric_only_seed1",
+      "evaluation_protocol": "holstein2025_zero_shot_reid",
+      "completed_at": "2026-07-10T17:51:43+00:00"
+    },
+    {
+      "run_dir": "artifacts/runs/matrix_convnexttiny_ablation_geometric_only_seed1",
+      "evaluation_protocol": "holstein2025_zero_shot_reid",
+      "completed_at": "2026-07-10T18:10:50+00:00"
+    },
+    {
+      "run_dir": "artifacts/runs/matrix_efficientnetb0_ablation_geometric_only_seed1",
+      "evaluation_protocol": "holstein2025_zero_shot_reid",
+      "completed_at": "2026-07-10T18:24:43+00:00"
+    },
+    {
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_ablation_no_cutout_seed1",
+      "evaluation_protocol": "holstein2025_zero_shot_reid",
+      "completed_at": "2026-07-10T18:52:37+00:00"
+    },
+    {
+      "run_dir": "artifacts/runs/matrix_convnexttiny_ablation_no_cutout_seed1",
+      "evaluation_protocol": "holstein2025_zero_shot_reid",
+      "completed_at": "2026-07-10T19:16:02+00:00"
+    },
+    {
+      "run_dir": "artifacts/runs/matrix_efficientnetb0_ablation_no_cutout_seed1",
+      "evaluation_protocol": "holstein2025_zero_shot_reid",
+      "completed_at": "2026-07-10T19:32:06+00:00"
+    },
+    {
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_ablation_cutout_only_seed1",
+      "evaluation_protocol": "holstein2025_zero_shot_reid",
+      "completed_at": "2026-07-10T19:44:58+00:00"
+    },
+    {
+      "run_dir": "artifacts/runs/matrix_convnexttiny_ablation_cutout_only_seed1",
+      "evaluation_protocol": "holstein2025_zero_shot_reid",
+      "completed_at": "2026-07-10T20:00:50+00:00"
+    },
+    {
+      "run_dir": "artifacts/runs/matrix_efficientnetb0_ablation_cutout_only_seed1",
+      "evaluation_protocol": "holstein2025_zero_shot_reid",
+      "completed_at": "2026-07-10T20:13:27+00:00"
+    },
+    {
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_ablation_224_seed1",
+      "evaluation_protocol": "holstein2025_zero_shot_reid",
+      "completed_at": "2026-07-10T20:35:47+00:00"
+    },
+    {
+      "run_dir": "artifacts/runs/matrix_convnexttiny_ablation_224_seed1",
+      "evaluation_protocol": "holstein2025_zero_shot_reid",
+      "completed_at": "2026-07-10T20:53:20+00:00"
+    },
+    {
+      "run_dir": "artifacts/runs/matrix_efficientnetb0_ablation_224_seed1",
+      "evaluation_protocol": "holstein2025_zero_shot_reid",
+      "completed_at": "2026-07-10T21:04:17+00:00"
+    },
+    {
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_ablation_frozen_seed1",
+      "evaluation_protocol": "holstein2025_zero_shot_reid",
+      "completed_at": "2026-07-10T21:13:50+00:00"
+    },
+    {
+      "run_dir": "artifacts/runs/matrix_convnexttiny_ablation_frozen_seed1",
+      "evaluation_protocol": "holstein2025_zero_shot_reid",
+      "completed_at": "2026-07-10T21:25:59+00:00"
+    },
+    {
+      "run_dir": "artifacts/runs/matrix_efficientnetb0_ablation_frozen_seed1",
+      "evaluation_protocol": "holstein2025_zero_shot_reid",
+      "completed_at": "2026-07-10T21:37:27+00:00"
+    },
+    {
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_holstein2025_closed_set_seed1",
+      "evaluation_protocol": "holstein2025_in_domain_reid",
+      "completed_at": "2026-07-10T21:52:35+00:00"
+    },
+    {
+      "run_dir": "artifacts/runs/matrix_convnexttiny_holstein2025_closed_set_seed1",
+      "evaluation_protocol": "holstein2025_in_domain_reid",
+      "completed_at": "2026-07-10T22:16:23+00:00"
+    },
+    {
+      "run_dir": "artifacts/runs/matrix_efficientnetb0_holstein2025_closed_set_seed1",
+      "evaluation_protocol": "holstein2025_in_domain_reid",
+      "completed_at": "2026-07-10T22:31:04+00:00"
+    }
+  ],
+  "completed_entries": 24,
+  "complete": true,
+  "expected_entries": 24,
+  "completed_at": "2026-07-10T22:31:17+00:00"
+}

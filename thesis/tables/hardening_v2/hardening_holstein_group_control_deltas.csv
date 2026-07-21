@@ -1,0 +1,10 @@
+candidate_group,source_protocol,checkpoints,metric,delta,ci_low,ci_high,bootstrap_unit,bootstrap_resamples,run_aggregation,animals,probes
+frozen,ablation_frozen_hardening_v2,5,cmc_rank_1,0.0,0.0,0.0,animal_id,2000,equal_run_mean,20,167
+frozen,ablation_frozen_hardening_v2,5,cmc_rank_5,0.0,0.0,0.0,animal_id,2000,equal_run_mean,20,167
+frozen,ablation_frozen_hardening_v2,5,mean_average_precision,-0.0005025807773772739,-0.0020101995792845577,0.0006367395459591073,animal_id,2000,equal_run_mean,20,167
+fine_tuned_paper_random,paper_random_hardening_v2,5,cmc_rank_1,-0.004790419161676647,-0.017021881044487423,0.007547169811320756,animal_id,2000,equal_run_mean,20,167
+fine_tuned_paper_random,paper_random_hardening_v2,5,cmc_rank_5,-0.0023952095808383233,-0.024695192086496426,0.018072459328840784,animal_id,2000,equal_run_mean,20,167
+fine_tuned_paper_random,paper_random_hardening_v2,5,mean_average_precision,-0.0042858085505035615,-0.009329850646432672,0.0007756986198694842,animal_id,2000,equal_run_mean,20,167
+fine_tuned_transform_holdout,transform_holdout_hardening_v2,5,cmc_rank_1,0.0,0.0,0.0,animal_id,2000,equal_run_mean,20,167
+fine_tuned_transform_holdout,transform_holdout_hardening_v2,5,cmc_rank_5,-0.005988023952095809,-0.0189873417721519,0.0,animal_id,2000,equal_run_mean,20,167
+fine_tuned_transform_holdout,transform_holdout_hardening_v2,5,mean_average_precision,-0.0011713089643552014,-0.003856538970206243,0.0011674632000099594,animal_id,2000,equal_run_mean,20,167

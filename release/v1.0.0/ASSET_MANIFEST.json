@@ -1,0 +1,49 @@
+{
+  "assets": [
+    {
+      "metadata": {
+        "augmentation_seed": 1,
+        "model": "efficientnetv2b3",
+        "protocol": "paper_random_hardening_v2",
+        "run_id": "matrix_efficientnetv2b3_paper_random_hardening_v2_train1_split1_aug1",
+        "split_seed": 1,
+        "training_seed": 1
+      },
+      "release_name": "efficientnetv2b3_paper_random_hardening_v2_seed1.keras",
+      "role": "primary_checkpoint",
+      "sha256": "52b671d28bc8b4abcf7ecfae597ea1e1f6cddd027ab71bc413571dc2f3d73288",
+      "size_bytes": 134190348,
+      "source_path": "artifacts/runs/matrix_efficientnetv2b3_paper_random_hardening_v2_train1_split1_aug1/model.keras"
+    },
+    {
+      "metadata": {
+        "holstein_evaluations": 16,
+        "manifested_files": 509,
+        "model_hashes": 30,
+        "training_jobs": 29
+      },
+      "release_name": "hardening_v2_evidence.zip",
+      "role": "hardening_evidence",
+      "sha256": "03cab43292e8c6f5200361035421ba375eb5a8907537e7802b45713773bae3c1",
+      "size_bytes": 43603931,
+      "source_path": "artifacts/evidence/hardening_v2_evidence.zip"
+    },
+    {
+      "metadata": {
+        "gradcam_runs": 2,
+        "holstein_error_identities": 8,
+        "manifested_files": 49,
+        "source_evidence_sha256": "03cab43292e8c6f5200361035421ba375eb5a8907537e7802b45713773bae3c1"
+      },
+      "release_name": "hardening_v2_visual_addendum.zip",
+      "role": "visual_addendum",
+      "sha256": "a689664f3e8783602596f3faf7a988af1f614e0d14a109c43a93f35b66ffffcf",
+      "size_bytes": 10032643,
+      "source_path": "artifacts/evidence/hardening_v2_visual_addendum.zip"
+    }
+  ],
+  "protocol_version": "hardening_v2",
+  "raw_dataset_images_included": false,
+  "release_version": "v1.0.0",
+  "schema_version": 1
+}

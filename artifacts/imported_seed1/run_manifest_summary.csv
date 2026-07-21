@@ -1,0 +1,28 @@
+run_id,model,protocol,num_classes,image_size,seed,batch_size,xla,mixed_precision_policy,gpus,stage_count,stage_plan
+convnexttiny_paper_random_20260706_072113,convnexttiny,paper_random,311,384x384,2026,128,True,mixed_float16,/physical_device:GPU:0,2,head@35ep/lr=0.001; finetune@45ep/lr=1e-05
+efficientnetv2b3_paper_random_20260706_065243,efficientnetv2b3,paper_random,311,384x384,2026,128,True,mixed_float16,/physical_device:GPU:0,2,head@35ep/lr=0.001; finetune@45ep/lr=1e-05
+efficientnetv2b3_transform_holdout_20260706_082034,efficientnetv2b3,transform_holdout,311,384x384,2026,128,True,mixed_float16,/physical_device:GPU:0,2,head@35ep/lr=0.001; finetune@45ep/lr=1e-05
+matrix_convnexttiny_ablation_224_seed1,convnexttiny,ablation_224,311,224x224,1,128,True,mixed_float16,/physical_device:GPU:0,2,head@35ep/lr=0.001; finetune@45ep/lr=1e-05
+matrix_convnexttiny_ablation_cutout_only_seed1,convnexttiny,ablation_cutout_only,311,384x384,1,128,True,mixed_float16,/physical_device:GPU:0,2,head@35ep/lr=0.001; finetune@45ep/lr=1e-05
+matrix_convnexttiny_ablation_frozen_seed1,convnexttiny,ablation_frozen,311,384x384,1,128,True,mixed_float16,/physical_device:GPU:0,1,head@35ep/lr=0.001
+matrix_convnexttiny_ablation_geometric_only_seed1,convnexttiny,ablation_geometric_only,311,384x384,1,128,True,mixed_float16,/physical_device:GPU:0,2,head@35ep/lr=0.001; finetune@45ep/lr=1e-05
+matrix_convnexttiny_ablation_no_cutout_seed1,convnexttiny,ablation_no_cutout,311,384x384,1,128,True,mixed_float16,/physical_device:GPU:0,2,head@35ep/lr=0.001; finetune@45ep/lr=1e-05
+matrix_convnexttiny_holstein2025_closed_set_seed1,convnexttiny,holstein2025_closed_set,82,384x384,1,64,True,mixed_float16,/physical_device:GPU:0,2,head@35ep/lr=0.001; finetune@45ep/lr=1e-05
+matrix_convnexttiny_paper_random_seed1,convnexttiny,paper_random,311,384x384,1,128,True,mixed_float16,/physical_device:GPU:0,2,head@35ep/lr=0.001; finetune@45ep/lr=1e-05
+matrix_convnexttiny_transform_holdout_seed1,convnexttiny,transform_holdout,311,384x384,1,128,True,mixed_float16,/physical_device:GPU:0,2,head@35ep/lr=0.001; finetune@45ep/lr=1e-05
+matrix_efficientnetb0_ablation_224_seed1,efficientnetb0,ablation_224,311,224x224,1,128,True,mixed_float16,/physical_device:GPU:0,2,head@35ep/lr=0.001; finetune@45ep/lr=1e-05
+matrix_efficientnetb0_ablation_cutout_only_seed1,efficientnetb0,ablation_cutout_only,311,384x384,1,128,True,mixed_float16,/physical_device:GPU:0,2,head@35ep/lr=0.001; finetune@45ep/lr=1e-05
+matrix_efficientnetb0_ablation_frozen_seed1,efficientnetb0,ablation_frozen,311,384x384,1,128,True,mixed_float16,/physical_device:GPU:0,1,head@35ep/lr=0.001
+matrix_efficientnetb0_ablation_geometric_only_seed1,efficientnetb0,ablation_geometric_only,311,384x384,1,128,True,mixed_float16,/physical_device:GPU:0,2,head@35ep/lr=0.001; finetune@45ep/lr=1e-05
+matrix_efficientnetb0_ablation_no_cutout_seed1,efficientnetb0,ablation_no_cutout,311,384x384,1,128,True,mixed_float16,/physical_device:GPU:0,2,head@35ep/lr=0.001; finetune@45ep/lr=1e-05
+matrix_efficientnetb0_holstein2025_closed_set_seed1,efficientnetb0,holstein2025_closed_set,82,384x384,1,64,True,mixed_float16,/physical_device:GPU:0,2,head@35ep/lr=0.001; finetune@45ep/lr=1e-05
+matrix_efficientnetb0_paper_random_seed1,efficientnetb0,paper_random,311,384x384,1,128,True,mixed_float16,/physical_device:GPU:0,2,head@35ep/lr=0.001; finetune@45ep/lr=1e-05
+matrix_efficientnetb0_transform_holdout_seed1,efficientnetb0,transform_holdout,311,384x384,1,128,True,mixed_float16,/physical_device:GPU:0,2,head@35ep/lr=0.001; finetune@45ep/lr=1e-05
+matrix_efficientnetv2b3_ablation_224_seed1,efficientnetv2b3,ablation_224,311,224x224,1,128,True,mixed_float16,/physical_device:GPU:0,2,head@35ep/lr=0.001; finetune@45ep/lr=1e-05
+matrix_efficientnetv2b3_ablation_cutout_only_seed1,efficientnetv2b3,ablation_cutout_only,311,384x384,1,128,True,mixed_float16,/physical_device:GPU:0,2,head@35ep/lr=0.001; finetune@45ep/lr=1e-05
+matrix_efficientnetv2b3_ablation_frozen_seed1,efficientnetv2b3,ablation_frozen,311,384x384,1,128,True,mixed_float16,/physical_device:GPU:0,1,head@35ep/lr=0.001
+matrix_efficientnetv2b3_ablation_geometric_only_seed1,efficientnetv2b3,ablation_geometric_only,311,384x384,1,128,True,mixed_float16,/physical_device:GPU:0,2,head@35ep/lr=0.001; finetune@45ep/lr=1e-05
+matrix_efficientnetv2b3_ablation_no_cutout_seed1,efficientnetv2b3,ablation_no_cutout,311,384x384,1,128,True,mixed_float16,/physical_device:GPU:0,2,head@35ep/lr=0.001; finetune@45ep/lr=1e-05
+matrix_efficientnetv2b3_holstein2025_closed_set_seed1,efficientnetv2b3,holstein2025_closed_set,82,384x384,1,64,True,mixed_float16,/physical_device:GPU:0,2,head@35ep/lr=0.001; finetune@45ep/lr=1e-05
+matrix_efficientnetv2b3_paper_random_seed1,efficientnetv2b3,paper_random,311,384x384,1,128,True,mixed_float16,/physical_device:GPU:0,2,head@35ep/lr=0.001; finetune@45ep/lr=1e-05
+matrix_efficientnetv2b3_transform_holdout_seed1,efficientnetv2b3,transform_holdout,311,384x384,1,128,True,mixed_float16,/physical_device:GPU:0,2,head@35ep/lr=0.001; finetune@45ep/lr=1e-05

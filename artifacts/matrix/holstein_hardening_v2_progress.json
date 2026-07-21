@@ -1,0 +1,89 @@
+{
+  "version": 2,
+  "expected_entries": 16,
+  "completed_entries": 16,
+  "complete": true,
+  "entries": [
+    {
+      "job_id": "evaluate_imagenet_only",
+      "run_dir": "artifacts/runs/imagenet_only_efficientnetv2b3_hardening_v2",
+      "control_type": "imagenet_only"
+    },
+    {
+      "job_id": "evaluate_train_efficientnetv2b3_ablation_frozen_hardening_v2_train1_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_ablation_frozen_hardening_v2_train1_split1_aug1",
+      "control_type": "frozen"
+    },
+    {
+      "job_id": "evaluate_train_efficientnetv2b3_ablation_frozen_hardening_v2_train2_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_ablation_frozen_hardening_v2_train2_split1_aug1",
+      "control_type": "frozen"
+    },
+    {
+      "job_id": "evaluate_train_efficientnetv2b3_ablation_frozen_hardening_v2_train3_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_ablation_frozen_hardening_v2_train3_split1_aug1",
+      "control_type": "frozen"
+    },
+    {
+      "job_id": "evaluate_train_efficientnetv2b3_ablation_frozen_hardening_v2_train4_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_ablation_frozen_hardening_v2_train4_split1_aug1",
+      "control_type": "frozen"
+    },
+    {
+      "job_id": "evaluate_train_efficientnetv2b3_ablation_frozen_hardening_v2_train5_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_ablation_frozen_hardening_v2_train5_split1_aug1",
+      "control_type": "frozen"
+    },
+    {
+      "job_id": "evaluate_train_efficientnetv2b3_paper_random_hardening_v2_train1_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_paper_random_hardening_v2_train1_split1_aug1",
+      "control_type": "fine_tuned"
+    },
+    {
+      "job_id": "evaluate_train_efficientnetv2b3_paper_random_hardening_v2_train2_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_paper_random_hardening_v2_train2_split1_aug1",
+      "control_type": "fine_tuned"
+    },
+    {
+      "job_id": "evaluate_train_efficientnetv2b3_paper_random_hardening_v2_train3_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_paper_random_hardening_v2_train3_split1_aug1",
+      "control_type": "fine_tuned"
+    },
+    {
+      "job_id": "evaluate_train_efficientnetv2b3_paper_random_hardening_v2_train4_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_paper_random_hardening_v2_train4_split1_aug1",
+      "control_type": "fine_tuned"
+    },
+    {
+      "job_id": "evaluate_train_efficientnetv2b3_paper_random_hardening_v2_train5_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_paper_random_hardening_v2_train5_split1_aug1",
+      "control_type": "fine_tuned"
+    },
+    {
+      "job_id": "evaluate_train_efficientnetv2b3_transform_holdout_hardening_v2_train1_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_transform_holdout_hardening_v2_train1_split1_aug1",
+      "control_type": "fine_tuned"
+    },
+    {
+      "job_id": "evaluate_train_efficientnetv2b3_transform_holdout_hardening_v2_train2_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_transform_holdout_hardening_v2_train2_split1_aug1",
+      "control_type": "fine_tuned"
+    },
+    {
+      "job_id": "evaluate_train_efficientnetv2b3_transform_holdout_hardening_v2_train3_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_transform_holdout_hardening_v2_train3_split1_aug1",
+      "control_type": "fine_tuned"
+    },
+    {
+      "job_id": "evaluate_train_efficientnetv2b3_transform_holdout_hardening_v2_train4_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_transform_holdout_hardening_v2_train4_split1_aug1",
+      "control_type": "fine_tuned"
+    },
+    {
+      "job_id": "evaluate_train_efficientnetv2b3_transform_holdout_hardening_v2_train5_split1_aug1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_transform_holdout_hardening_v2_train5_split1_aug1",
+      "control_type": "fine_tuned"
+    }
+  ],
+  "updated_at": "2026-07-13T03:46:29+00:00"
+}

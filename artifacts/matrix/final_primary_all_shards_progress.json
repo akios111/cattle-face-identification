@@ -1,0 +1,130 @@
+{
+  "entries": [
+    {
+      "job_id": "train_efficientnetv2b3_paper_random_seed1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_paper_random_seed1",
+      "completed_at": "2026-07-11T07:42:44+00:00"
+    },
+    {
+      "job_id": "evaluate_efficientnetv2b3_paper_random_holstein2025_zero_shot_reid_seed1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_paper_random_seed1",
+      "completed_at": "2026-07-11T07:42:44+00:00"
+    },
+    {
+      "job_id": "train_efficientnetv2b3_transform_holdout_seed1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_transform_holdout_seed1",
+      "completed_at": "2026-07-11T07:42:44+00:00"
+    },
+    {
+      "job_id": "evaluate_efficientnetv2b3_transform_holdout_holstein2025_zero_shot_reid_seed1",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_transform_holdout_seed1",
+      "completed_at": "2026-07-11T07:42:44+00:00"
+    },
+    {
+      "job_id": "train_efficientnetv2b3_paper_random_seed2",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_paper_random_seed2",
+      "completed_at": "2026-07-11T08:10:55+00:00"
+    },
+    {
+      "job_id": "evaluate_efficientnetv2b3_paper_random_holstein2025_zero_shot_reid_seed2",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_paper_random_seed2",
+      "completed_at": "2026-07-11T08:14:31+00:00"
+    },
+    {
+      "job_id": "train_efficientnetv2b3_transform_holdout_seed2",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_transform_holdout_seed2",
+      "completed_at": "2026-07-11T08:26:51+00:00"
+    },
+    {
+      "job_id": "evaluate_efficientnetv2b3_transform_holdout_holstein2025_zero_shot_reid_seed2",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_transform_holdout_seed2",
+      "completed_at": "2026-07-11T08:29:13+00:00"
+    },
+    {
+      "job_id": "train_efficientnetv2b3_paper_random_seed3",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_paper_random_seed3",
+      "completed_at": "2026-07-11T08:41:10+00:00"
+    },
+    {
+      "job_id": "evaluate_efficientnetv2b3_paper_random_holstein2025_zero_shot_reid_seed3",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_paper_random_seed3",
+      "completed_at": "2026-07-11T08:43:31+00:00"
+    },
+    {
+      "job_id": "train_efficientnetv2b3_transform_holdout_seed3",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_transform_holdout_seed3",
+      "completed_at": "2026-07-11T08:55:42+00:00"
+    },
+    {
+      "job_id": "evaluate_efficientnetv2b3_transform_holdout_holstein2025_zero_shot_reid_seed3",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_transform_holdout_seed3",
+      "completed_at": "2026-07-11T08:58:04+00:00"
+    },
+    {
+      "job_id": "train_efficientnetv2b3_paper_random_seed4",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_paper_random_seed4",
+      "completed_at": "2026-07-11T09:09:55+00:00"
+    },
+    {
+      "job_id": "evaluate_efficientnetv2b3_paper_random_holstein2025_zero_shot_reid_seed4",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_paper_random_seed4",
+      "completed_at": "2026-07-11T09:12:17+00:00"
+    },
+    {
+      "job_id": "train_efficientnetv2b3_transform_holdout_seed4",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_transform_holdout_seed4",
+      "completed_at": "2026-07-11T09:23:55+00:00"
+    },
+    {
+      "job_id": "evaluate_efficientnetv2b3_transform_holdout_holstein2025_zero_shot_reid_seed4",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_transform_holdout_seed4",
+      "completed_at": "2026-07-11T09:26:16+00:00"
+    },
+    {
+      "job_id": "train_efficientnetv2b3_paper_random_seed5",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_paper_random_seed5",
+      "completed_at": "2026-07-11T09:37:54+00:00"
+    },
+    {
+      "job_id": "evaluate_efficientnetv2b3_paper_random_holstein2025_zero_shot_reid_seed5",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_paper_random_seed5",
+      "completed_at": "2026-07-11T09:40:15+00:00"
+    },
+    {
+      "job_id": "train_efficientnetv2b3_transform_holdout_seed5",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_transform_holdout_seed5",
+      "completed_at": "2026-07-11T09:51:22+00:00"
+    },
+    {
+      "job_id": "evaluate_efficientnetv2b3_transform_holdout_holstein2025_zero_shot_reid_seed5",
+      "run_dir": "artifacts/runs/matrix_efficientnetv2b3_transform_holdout_seed5",
+      "completed_at": "2026-07-11T09:53:44+00:00"
+    }
+  ],
+  "completed_entries": 20,
+  "complete": true,
+  "expected_job_ids": [
+    "evaluate_efficientnetv2b3_paper_random_holstein2025_zero_shot_reid_seed1",
+    "evaluate_efficientnetv2b3_paper_random_holstein2025_zero_shot_reid_seed2",
+    "evaluate_efficientnetv2b3_paper_random_holstein2025_zero_shot_reid_seed3",
+    "evaluate_efficientnetv2b3_paper_random_holstein2025_zero_shot_reid_seed4",
+    "evaluate_efficientnetv2b3_paper_random_holstein2025_zero_shot_reid_seed5",
+    "evaluate_efficientnetv2b3_transform_holdout_holstein2025_zero_shot_reid_seed1",
+    "evaluate_efficientnetv2b3_transform_holdout_holstein2025_zero_shot_reid_seed2",
+    "evaluate_efficientnetv2b3_transform_holdout_holstein2025_zero_shot_reid_seed3",
+    "evaluate_efficientnetv2b3_transform_holdout_holstein2025_zero_shot_reid_seed4",
+    "evaluate_efficientnetv2b3_transform_holdout_holstein2025_zero_shot_reid_seed5",
+    "train_efficientnetv2b3_paper_random_seed1",
+    "train_efficientnetv2b3_paper_random_seed2",
+    "train_efficientnetv2b3_paper_random_seed3",
+    "train_efficientnetv2b3_paper_random_seed4",
+    "train_efficientnetv2b3_paper_random_seed5",
+    "train_efficientnetv2b3_transform_holdout_seed1",
+    "train_efficientnetv2b3_transform_holdout_seed2",
+    "train_efficientnetv2b3_transform_holdout_seed3",
+    "train_efficientnetv2b3_transform_holdout_seed4",
+    "train_efficientnetv2b3_transform_holdout_seed5"
+  ],
+  "expected_entries": 20,
+  "completed_at": "2026-07-11T14:11:46+00:00"
+}

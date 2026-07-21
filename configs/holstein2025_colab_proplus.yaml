@@ -1,0 +1,42 @@
+dataset:
+  name: holstein2025
+  raw_dir: data/external_public/Holstein2025
+
+preprocessing:
+  image_size: [384, 384]
+
+augmentation:
+  profile: none
+
+split:
+  protocol: holstein2025_closed_set
+
+training:
+  epochs: 35
+  batch_size: 64
+  learning_rate: 0.001
+  optimizer: adamw
+  weight_decay: 0.0001
+  dropout: 0.35
+  seed: 2026
+  dataset_cache: memory
+  steps_per_execution: 16
+  jit_compile: true
+  checkpoint_metric: val_accuracy
+  acceleration:
+    mixed_precision: auto
+    xla: true
+  early_stopping:
+    enabled: true
+    monitor: val_loss
+    patience: 10
+  fine_tune:
+    enabled: true
+    epochs: 45
+    learning_rate: 0.00001
+    trainable_last_n: 80
+    freeze_batchnorm: true
+
+output:
+  metadata_dir: artifacts/metadata
+  run_dir: artifacts/runs

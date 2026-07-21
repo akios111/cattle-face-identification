@@ -1,0 +1,74 @@
+{
+  "faithfulness_steps": 20,
+  "gradcam_method": "pre_softmax_logit",
+  "gradcam_runs": [
+    {
+      "minimum_heatmap_nonzero_fraction": 0.5,
+      "run_id": "matrix_efficientnetv2b3_paper_random_hardening_v2_train1_split1_aug1",
+      "samples": 6,
+      "score_space": "pre_softmax_logit"
+    },
+    {
+      "minimum_heatmap_nonzero_fraction": 0.7777777777777778,
+      "run_id": "matrix_efficientnetv2b3_transform_holdout_hardening_v2_train1_split1_aug1",
+      "samples": 6,
+      "score_space": "pre_softmax_logit"
+    }
+  ],
+  "holstein2025": {
+    "error_run_id": "matrix_efficientnetv2b3_paper_random_hardening_v2_train1_split1_aug1",
+    "selection": "difficult_rank1_errors_prioritizing_distinct_true_animal_id",
+    "verified_errors": [
+      {
+        "animal_id": "9001",
+        "predicted_animal_id": "9005",
+        "relative_path": "query1/9001/0001_q7.png",
+        "sha256": "502dd23c923862b8013c6eabed1cb5f4e9497e5da4ebeab7f45fee33a3f4ca31"
+      },
+      {
+        "animal_id": "9004",
+        "predicted_animal_id": "9002",
+        "relative_path": "query1/9004/050001_q7.jpg",
+        "sha256": "790ad70a342f65ba221b01e8551dbfb5ea6b486b63b0d70ba6f544a300aded33"
+      },
+      {
+        "animal_id": "9003",
+        "predicted_animal_id": "9007",
+        "relative_path": "query1/9003/050003_q10.jpg",
+        "sha256": "5d68b2de4dadef122dbb95471ffe38c2a002571418d409bcf812859de40dd200"
+      },
+      {
+        "animal_id": "998240000037023",
+        "predicted_animal_id": "9006",
+        "relative_path": "query1/998240000037023/20250814145933_20250814152933_0016_cls0.jpg",
+        "sha256": "6642084d466ddb7557af7c58a27a7af09b4bb202d6735a3766ba67e0d60b8217"
+      },
+      {
+        "animal_id": "9006",
+        "predicted_animal_id": "998240000036828",
+        "relative_path": "query1/9006/050006_q9.jpg",
+        "sha256": "79d19f7a90e0471ca5e6609eaf409de1b5fcc261bbf7e514540406dd2d450790"
+      },
+      {
+        "animal_id": "998240000038207",
+        "predicted_animal_id": "998240000050545",
+        "relative_path": "query1/998240000038207/0814-2-1-4 (10).png",
+        "sha256": "86326b402f9ad2bc5b4167b8dd1f6def702607d882428b644d72ead391ef58dc"
+      },
+      {
+        "animal_id": "9002",
+        "predicted_animal_id": "9006",
+        "relative_path": "query1/9002/050002_q4.jpg",
+        "sha256": "cdd1a5944368e3f07ac09d857a2beb7e85fa2aef2d8b26c85ead3361d53250b6"
+      },
+      {
+        "animal_id": "9010",
+        "predicted_animal_id": "9003",
+        "relative_path": "query1/9010/050003_q1.jpg",
+        "sha256": "178d406f0710fef14062b1920b3faf003b8591bed96c4c10c08a456e74c70b73"
+      }
+    ]
+  },
+  "protocol_version": "hardening_v2",
+  "schema_version": 1
+}

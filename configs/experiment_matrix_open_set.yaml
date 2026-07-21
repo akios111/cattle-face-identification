@@ -1,0 +1,36 @@
+base_config: configs/cattlessfr_colab_proplus.yaml
+
+seeds: [1, 2, 3, 4, 5]
+
+models:
+  - efficientnetv2b3
+  - convnexttiny
+  - efficientnetb0
+
+protocols:
+  - paper_random
+  - transform_holdout
+  - ablation_geometric_only
+  - ablation_no_cutout
+  - ablation_cutout_only
+  - ablation_224
+  - ablation_frozen
+
+evaluations:
+  - holstein2025_zero_shot_reid
+
+evaluation_scope: each_training_run
+external_metadata: artifacts/metadata/holstein2025_open_set.csv
+
+target_training:
+  base_config: configs/holstein2025_colab_proplus.yaml
+  metadata: artifacts/metadata/holstein2025_open_set.csv
+  protocols:
+    - holstein2025_closed_set
+  evaluations:
+    - holstein2025_in_domain_reid
+
+output:
+  jobs_json: artifacts/matrix/experiment_matrix_open_set_jobs.json
+  tables_dir: thesis/tables
+  figures_dir: thesis/figures/gradcam

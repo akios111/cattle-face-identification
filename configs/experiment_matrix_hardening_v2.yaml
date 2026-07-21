@@ -1,0 +1,51 @@
+version: 2
+purpose: final_hardening_v2
+base_config: configs/cattlessfr_hardening_v2_colab_proplus.yaml
+
+job_defaults:
+  kind: train
+  model: efficientnetv2b3
+  augmentation_seed: 1
+  protocol_version: hardening_v2
+
+jobs:
+  - {group: training_seed_variability, protocol: paper_random_hardening_v2, training_seed: 1, split_seed: 1}
+  - {group: training_seed_variability, protocol: paper_random_hardening_v2, training_seed: 2, split_seed: 1}
+  - {group: training_seed_variability, protocol: paper_random_hardening_v2, training_seed: 3, split_seed: 1}
+  - {group: training_seed_variability, protocol: paper_random_hardening_v2, training_seed: 4, split_seed: 1}
+  - {group: training_seed_variability, protocol: paper_random_hardening_v2, training_seed: 5, split_seed: 1}
+
+  - {group: training_seed_variability, protocol: transform_holdout_hardening_v2, training_seed: 1, split_seed: 1}
+  - {group: training_seed_variability, protocol: transform_holdout_hardening_v2, training_seed: 2, split_seed: 1}
+  - {group: training_seed_variability, protocol: transform_holdout_hardening_v2, training_seed: 3, split_seed: 1}
+  - {group: training_seed_variability, protocol: transform_holdout_hardening_v2, training_seed: 4, split_seed: 1}
+  - {group: training_seed_variability, protocol: transform_holdout_hardening_v2, training_seed: 5, split_seed: 1}
+
+  - {group: split_sensitivity, protocol: paper_random_hardening_v2, training_seed: 1, split_seed: 2}
+  - {group: split_sensitivity, protocol: paper_random_hardening_v2, training_seed: 1, split_seed: 3}
+  - {group: split_sensitivity, protocol: paper_random_hardening_v2, training_seed: 1, split_seed: 4}
+  - {group: split_sensitivity, protocol: paper_random_hardening_v2, training_seed: 1, split_seed: 5}
+
+  - {group: controlled_ablation, protocol: ablation_no_cutout_hardening_v2, training_seed: 1, split_seed: 1}
+  - {group: controlled_ablation, protocol: ablation_no_cutout_hardening_v2, training_seed: 2, split_seed: 1}
+  - {group: controlled_ablation, protocol: ablation_no_cutout_hardening_v2, training_seed: 3, split_seed: 1}
+  - {group: controlled_ablation, protocol: ablation_no_cutout_hardening_v2, training_seed: 4, split_seed: 1}
+  - {group: controlled_ablation, protocol: ablation_no_cutout_hardening_v2, training_seed: 5, split_seed: 1}
+
+  - {group: controlled_ablation, protocol: ablation_224_hardening_v2, training_seed: 1, split_seed: 1}
+  - {group: controlled_ablation, protocol: ablation_224_hardening_v2, training_seed: 2, split_seed: 1}
+  - {group: controlled_ablation, protocol: ablation_224_hardening_v2, training_seed: 3, split_seed: 1}
+  - {group: controlled_ablation, protocol: ablation_224_hardening_v2, training_seed: 4, split_seed: 1}
+  - {group: controlled_ablation, protocol: ablation_224_hardening_v2, training_seed: 5, split_seed: 1}
+
+  - {group: controlled_ablation, protocol: ablation_frozen_hardening_v2, training_seed: 1, split_seed: 1}
+  - {group: controlled_ablation, protocol: ablation_frozen_hardening_v2, training_seed: 2, split_seed: 1}
+  - {group: controlled_ablation, protocol: ablation_frozen_hardening_v2, training_seed: 3, split_seed: 1}
+  - {group: controlled_ablation, protocol: ablation_frozen_hardening_v2, training_seed: 4, split_seed: 1}
+  - {group: controlled_ablation, protocol: ablation_frozen_hardening_v2, training_seed: 5, split_seed: 1}
+
+output:
+  jobs_json: artifacts/matrix/experiment_matrix_hardening_v2_jobs.json
+  progress_json: artifacts/matrix/hardening_v2_progress.json
+  tables_dir: thesis/tables
+  figures_dir: thesis/figures/hardening_v2

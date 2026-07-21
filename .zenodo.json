@@ -1,0 +1,26 @@
+{
+  "title": "Deep learning for cattle face identification: reproducible evaluation in a single-source-image setting",
+  "description": "Code and evidence artifacts for the hardening_v2 CattleSSFR and Holstein2025 evaluation.",
+  "creators": [
+    {
+      "name": "akios111"
+    }
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "keywords": [
+    "cattle face identification",
+    "deep learning",
+    "transfer learning",
+    "re-identification",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/akios111/cattle-face-identification",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

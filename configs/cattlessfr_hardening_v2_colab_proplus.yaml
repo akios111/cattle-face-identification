@@ -1,0 +1,52 @@
+protocol_version: hardening_v2
+
+dataset:
+  repo_url: "https://github.com/MachineLearningVisionRG/CattleSSFR.git"
+  commit_sha: "099d749e9a766ff0c9b9fbc49112c6b77b29542e"
+  raw_dir: "/content/cattle_runtime/raw/CattleSSFR"
+  image_subdir: "cattle_images"
+  expected_images: 311
+
+preprocessing:
+  image_size: [384, 384]
+
+augmentation:
+  profile: "all"
+  seed: 1
+  materialization_id: "cattlessfr_099d749_hardening_v2_aug1_384"
+
+split:
+  protocol: "paper_random"
+  seed: 1
+
+training:
+  seed: 1
+  training_seed: 1
+  epochs: 35
+  batch_size: 128
+  learning_rate: 0.001
+  optimizer: "adamw"
+  weight_decay: 0.0001
+  dropout: 0.35
+  dataset_cache: "memory"
+  steps_per_execution: 16
+  jit_compile: true
+  checkpoint_metric: "val_accuracy"
+  acceleration:
+    mixed_precision: "auto"
+    xla: true
+  early_stopping:
+    enabled: true
+    monitor: "val_loss"
+    patience: 10
+  fine_tune:
+    enabled: true
+    epochs: 45
+    learning_rate: 0.00001
+    trainable_last_n: 80
+    freeze_batchnorm: true
+
+output:
+  processed_dir: "/content/cattle_runtime/processed"
+  metadata_dir: "artifacts/metadata/hardening_v2"
+  run_dir: "artifacts/runs"

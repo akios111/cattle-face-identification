@@ -1,0 +1,191 @@
+{
+  "version": 2,
+  "complete": true,
+  "mode": "verified_evidence_rebuild",
+  "evidence_source": "D:\\ergasies\\cattle_face_identification\\artifacts\\evidence\\hardening_v2_evidence.zip",
+  "evidence_sha256": "03cab43292e8c6f5200361035421ba375eb5a8907537e7802b45713773bae3c1",
+  "training_jobs": 29,
+  "holstein_evaluations": 16,
+  "model_hashes": 30,
+  "regenerated_tables": [
+    {
+      "path": "hardening_primary_runs.csv",
+      "generated_canonical_sha256": "9c044926838907796c73311cf73c3f5a74c3843cff7a68ec4c8e1d227c82c613",
+      "expected_canonical_sha256": "9c044926838907796c73311cf73c3f5a74c3843cff7a68ec4c8e1d227c82c613",
+      "byte_match_after_newline_normalization": true,
+      "max_abs_numeric_difference": 0.0,
+      "absolute_tolerance": 1e-12,
+      "match": true
+    },
+    {
+      "path": "hardening_training_seed_stability.csv",
+      "generated_canonical_sha256": "f2f12b2334255184c0e646abfa3cb98bf38307237ad94bf3678ae7e321324ed8",
+      "expected_canonical_sha256": "f2f12b2334255184c0e646abfa3cb98bf38307237ad94bf3678ae7e321324ed8",
+      "byte_match_after_newline_normalization": true,
+      "max_abs_numeric_difference": 0.0,
+      "absolute_tolerance": 1e-12,
+      "match": true
+    },
+    {
+      "path": "hardening_split_sensitivity_runs.csv",
+      "generated_canonical_sha256": "62b345a48d9cc464768029bf17eab38406915973347f2246561a5e9c79cb30d9",
+      "expected_canonical_sha256": "62b345a48d9cc464768029bf17eab38406915973347f2246561a5e9c79cb30d9",
+      "byte_match_after_newline_normalization": true,
+      "max_abs_numeric_difference": 0.0,
+      "absolute_tolerance": 1e-12,
+      "match": true
+    },
+    {
+      "path": "hardening_split_sensitivity_summary.csv",
+      "generated_canonical_sha256": "da54052e3c38f536454dd8fafe026e001da0fdc1897a9809e9fb7c8142d46bf0",
+      "expected_canonical_sha256": "da54052e3c38f536454dd8fafe026e001da0fdc1897a9809e9fb7c8142d46bf0",
+      "byte_match_after_newline_normalization": true,
+      "max_abs_numeric_difference": 0.0,
+      "absolute_tolerance": 1e-12,
+      "match": true
+    },
+    {
+      "path": "hardening_ablation_runs.csv",
+      "generated_canonical_sha256": "743cf3bb8ea0500ab7fa416c669fb9c9d0eb7e6850fa63f5a4b0b1dacfc42369",
+      "expected_canonical_sha256": "743cf3bb8ea0500ab7fa416c669fb9c9d0eb7e6850fa63f5a4b0b1dacfc42369",
+      "byte_match_after_newline_normalization": true,
+      "max_abs_numeric_difference": 0.0,
+      "absolute_tolerance": 1e-12,
+      "match": true
+    },
+    {
+      "path": "hardening_ablation_summary.csv",
+      "generated_canonical_sha256": "8e3a5a455af2d624ed45ad4a11d84c85dbc16e316b2386cb271172a3d2e9da0b",
+      "expected_canonical_sha256": "8e3a5a455af2d624ed45ad4a11d84c85dbc16e316b2386cb271172a3d2e9da0b",
+      "byte_match_after_newline_normalization": true,
+      "max_abs_numeric_difference": 0.0,
+      "absolute_tolerance": 1e-12,
+      "match": true
+    },
+    {
+      "path": "hardening_shortcut_summary.csv",
+      "generated_canonical_sha256": "c130f46bca1ad28b0da9c2f3f2d8537c70b02cfb1e99251f1d769679ad9c1a38",
+      "expected_canonical_sha256": "c130f46bca1ad28b0da9c2f3f2d8537c70b02cfb1e99251f1d769679ad9c1a38",
+      "byte_match_after_newline_normalization": true,
+      "max_abs_numeric_difference": 0.0,
+      "absolute_tolerance": 1e-12,
+      "match": true
+    },
+    {
+      "path": "hardening_shortcut_mcnemar.csv",
+      "generated_canonical_sha256": "7dba59fa295f9bb7fd7320d79bb708fdd339fd0341f78a9140cbedc76c3abe5e",
+      "expected_canonical_sha256": "7dba59fa295f9bb7fd7320d79bb708fdd339fd0341f78a9140cbedc76c3abe5e",
+      "byte_match_after_newline_normalization": true,
+      "max_abs_numeric_difference": 0.0,
+      "absolute_tolerance": 1e-12,
+      "match": true
+    },
+    {
+      "path": "hardening_region_audit_runs.csv",
+      "generated_canonical_sha256": "db823b7edea25f011ae6c6350c2fd81d34c2bbf32cfc2ff620011ac577d87c78",
+      "expected_canonical_sha256": "db823b7edea25f011ae6c6350c2fd81d34c2bbf32cfc2ff620011ac577d87c78",
+      "byte_match_after_newline_normalization": true,
+      "max_abs_numeric_difference": 0.0,
+      "absolute_tolerance": 1e-12,
+      "match": true
+    },
+    {
+      "path": "hardening_region_audit_summary.csv",
+      "generated_canonical_sha256": "0345453feba99f7ae11620d2c9b9fd96dda48954186af7b73693a796538693da",
+      "expected_canonical_sha256": "0345453feba99f7ae11620d2c9b9fd96dda48954186af7b73693a796538693da",
+      "byte_match_after_newline_normalization": true,
+      "max_abs_numeric_difference": 0.0,
+      "absolute_tolerance": 1e-12,
+      "match": true
+    },
+    {
+      "path": "hardening_severity_runs.csv",
+      "generated_canonical_sha256": "1c7685571ce9453777593181be77483b959a03e654c8465b0ff12fb488cd989b",
+      "expected_canonical_sha256": "1c7685571ce9453777593181be77483b959a03e654c8465b0ff12fb488cd989b",
+      "byte_match_after_newline_normalization": true,
+      "max_abs_numeric_difference": 0.0,
+      "absolute_tolerance": 1e-12,
+      "match": true
+    },
+    {
+      "path": "hardening_severity_summary.csv",
+      "generated_canonical_sha256": "a802741cd7bc28fed15adaba5cbdcb45f768307a7c33031c6e3fc9664125cfa7",
+      "expected_canonical_sha256": "a802741cd7bc28fed15adaba5cbdcb45f768307a7c33031c6e3fc9664125cfa7",
+      "byte_match_after_newline_normalization": true,
+      "max_abs_numeric_difference": 0.0,
+      "absolute_tolerance": 1e-12,
+      "match": true
+    },
+    {
+      "path": "hardening_holstein_runs.csv",
+      "generated_canonical_sha256": "03afe10e077c9e324060b5405b49530c94dc1e8dfa6e0e592dc1627e86f40eb8",
+      "expected_canonical_sha256": "03afe10e077c9e324060b5405b49530c94dc1e8dfa6e0e592dc1627e86f40eb8",
+      "byte_match_after_newline_normalization": true,
+      "max_abs_numeric_difference": 0.0,
+      "absolute_tolerance": 1e-12,
+      "match": true
+    },
+    {
+      "path": "hardening_holstein_control_deltas.csv",
+      "generated_canonical_sha256": "6e8f6bdd37a232ea408757a1ca6816e43bf9bc6748056fed9f8bb2636f485ec4",
+      "expected_canonical_sha256": "6e8f6bdd37a232ea408757a1ca6816e43bf9bc6748056fed9f8bb2636f485ec4",
+      "byte_match_after_newline_normalization": true,
+      "max_abs_numeric_difference": 0.0,
+      "absolute_tolerance": 1e-12,
+      "match": true
+    },
+    {
+      "path": "hardening_holstein_group_control_deltas.csv",
+      "generated_canonical_sha256": "330f074f412c9436f7d9f38fe955f9c03ef99d35f3da36275e282e32d0b71bef",
+      "expected_canonical_sha256": "330f074f412c9436f7d9f38fe955f9c03ef99d35f3da36275e282e32d0b71bef",
+      "byte_match_after_newline_normalization": true,
+      "max_abs_numeric_difference": 0.0,
+      "absolute_tolerance": 1e-12,
+      "match": true
+    },
+    {
+      "path": "hardening_holstein_checkpoint_pairwise.csv",
+      "generated_canonical_sha256": "27b2e0f2d06e7be3e7735b3a72276c08c421817649e9c708126410fa7d622e19",
+      "expected_canonical_sha256": "27b2e0f2d06e7be3e7735b3a72276c08c421817649e9c708126410fa7d622e19",
+      "byte_match_after_newline_normalization": true,
+      "max_abs_numeric_difference": 0.0,
+      "absolute_tolerance": 1e-12,
+      "match": true
+    },
+    {
+      "path": "hardening_experiment_settings.csv",
+      "generated_canonical_sha256": "85b13c3153ee051e6bf54f1f4211cce3ccd2d39e8dafbff95d60a7d13c32ca10",
+      "expected_canonical_sha256": "85b13c3153ee051e6bf54f1f4211cce3ccd2d39e8dafbff95d60a7d13c32ca10",
+      "byte_match_after_newline_normalization": true,
+      "max_abs_numeric_difference": 0.0,
+      "absolute_tolerance": 1e-12,
+      "match": true
+    }
+  ],
+  "verified_auxiliary_artifacts": [
+    {
+      "path": "hardening_frozen_imagenet_sanity.csv",
+      "canonical_sha256": "01220202f7c4b0fb9cc5f7238afb4a125bb747c0fad0b641d63c523599919036",
+      "size_bytes": 932,
+      "match": true
+    },
+    {
+      "path": "hardening_frozen_imagenet_sanity.tex",
+      "canonical_sha256": "83d68720760eb88c2a9af91d28df02f86a0b2298e252bbedfde563ae1584ec2c",
+      "size_bytes": 1044,
+      "match": true
+    },
+    {
+      "path": "hardening_gradcam_faithfulness.csv",
+      "canonical_sha256": "f1cd38db0898b7b1aea98e4f23889dcbd5513da499fe953eb3be8369f7b759d4",
+      "size_bytes": 1017,
+      "match": true
+    },
+    {
+      "path": "hardening_gradcam_faithfulness.tex",
+      "canonical_sha256": "c91aac12368206a9e8db70f270552159ec709a42372f3f52f7b060bb75174b32",
+      "size_bytes": 374,
+      "match": true
+    }
+  ]
+}

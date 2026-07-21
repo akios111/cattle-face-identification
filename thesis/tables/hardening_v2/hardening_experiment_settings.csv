@@ -1,0 +1,54 @@
+section,name,value
+augmentation,original,{}
+augmentation,flip_horizontal,"{""op"": ""flip_horizontal""}"
+augmentation,flip_vertical,"{""op"": ""flip_vertical""}"
+augmentation,rotate_neg_15,"{""degrees"": -15, ""op"": ""rotate""}"
+augmentation,rotate_pos_15,"{""degrees"": 15, ""op"": ""rotate""}"
+augmentation,brightness_up,"{""factor"": 1.25, ""op"": ""brightness""}"
+augmentation,brightness_down,"{""factor"": 0.75, ""op"": ""brightness""}"
+augmentation,contrast_up,"{""factor"": 1.25, ""op"": ""contrast""}"
+augmentation,contrast_down,"{""factor"": 0.75, ""op"": ""contrast""}"
+augmentation,gaussian_noise,"{""op"": ""gaussian_noise"", ""sigma"": 12.0}"
+augmentation,blur,"{""op"": ""blur"", ""radius"": 1.4}"
+augmentation,sharpen,"{""factor"": 1.8, ""op"": ""sharpen""}"
+augmentation,translate_left,"{""op"": ""translate"", ""x"": -0.08, ""y"": 0.0}"
+augmentation,translate_right,"{""op"": ""translate"", ""x"": 0.08, ""y"": 0.0}"
+augmentation,zoom_in,"{""factor"": 1.12, ""op"": ""zoom""}"
+augmentation,zoom_out,"{""factor"": 0.88, ""op"": ""zoom""}"
+augmentation,shear_x,"{""op"": ""shear"", ""x"": 0.1, ""y"": 0.0}"
+augmentation,shear_y,"{""op"": ""shear"", ""x"": 0.0, ""y"": 0.1}"
+augmentation,cutout_center,"{""mode"": ""center"", ""op"": ""cutout"", ""size"": 0.25}"
+augmentation,cutout_random,"{""mode"": ""random"", ""op"": ""cutout"", ""size"": 0.25}"
+dataset,repo_url,"""https://github.com/MachineLearningVisionRG/CattleSSFR.git"""
+dataset,commit_sha,"""099d749e9a766ff0c9b9fbc49112c6b77b29542e"""
+dataset,raw_dir,"""/content/cattle_runtime/raw/CattleSSFR"""
+dataset,image_subdir,"""cattle_images"""
+dataset,expected_images,311
+preprocessing,image_size,"[384, 384]"
+augmentation,profile,"""all"""
+augmentation,seed,1
+augmentation,materialization_id,"""cattlessfr_099d749_hardening_v2_aug1_384"""
+split,protocol,"""paper_random"""
+split,seed,1
+training,seed,1
+training,training_seed,1
+training,epochs,35
+training,batch_size,128
+training,learning_rate,0.001
+training,optimizer,"""adamw"""
+training,weight_decay,0.0001
+training,dropout,0.35
+training,dataset_cache,"""memory"""
+training,steps_per_execution,16
+training,jit_compile,true
+training,checkpoint_metric,"""val_accuracy"""
+training,acceleration.mixed_precision,"""auto"""
+training,acceleration.xla,true
+training,early_stopping.enabled,true
+training,early_stopping.monitor,"""val_loss"""
+training,early_stopping.patience,10
+training,fine_tune.enabled,true
+training,fine_tune.epochs,45
+training,fine_tune.learning_rate,1e-05
+training,fine_tune.trainable_last_n,80
+training,fine_tune.freeze_batchnorm,true

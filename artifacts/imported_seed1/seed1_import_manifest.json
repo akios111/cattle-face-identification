@@ -1,0 +1,68 @@
+{
+  "complete_seed1_rows": {
+    "ablation_main_summary": 3,
+    "ablation_supplementary": 2,
+    "holstein2025_in_domain_summary": 1,
+    "holstein2025_zero_shot_summary": 2,
+    "primary_run_metrics": 2
+  },
+  "files": [
+    {
+      "drive_id": "1FOPtTj9zH8ABMfwuYQDFHPiOSu6fcF7A",
+      "path": "ablation_summary.csv",
+      "sha256": "3edd8fedf8e00352c6c1fcf9d6eb06faad5162c3573e573b214be2e1d97f438e",
+      "size_bytes": 2025
+    },
+    {
+      "drive_id": null,
+      "path": "drive_sources.json",
+      "sha256": "fb71182486fe801af4362fb22427fa0dd358e3cd89e3f722e0079cc190d834b8",
+      "size_bytes": 1888
+    },
+    {
+      "drive_id": "1VnQbaOXkujmAGFujbHKXUYD_SwxbRNcU",
+      "path": "gradcam_figure_index.csv",
+      "sha256": "6b13d8881ac990538496c40913a2f6033c1686eed5656f5c12726725af5919e8",
+      "size_bytes": 10153
+    },
+    {
+      "drive_id": "1kGmUoZ1IU1lbzhmpm7Bi16D4PP_JzmnS",
+      "path": "holstein2025_in_domain_summary.csv",
+      "sha256": "93a1ea81347a8d85f27ab2675597ded35d338f42573cde220c6ad9d3bc9ff0b7",
+      "size_bytes": 1118
+    },
+    {
+      "drive_id": "1KPPBB0N_6SeBCqX4IBvrYSBp_hkk4ge4",
+      "path": "holstein2025_zero_shot_summary.csv",
+      "sha256": "0983ed11010264de6e1b51bd2663efae27a6b44e4820ce7ceb5894e5b32266ac",
+      "size_bytes": 6231
+    },
+    {
+      "drive_id": "1sILiIm8pJMTlVrIFJ4I14GS1GLIdCAmv",
+      "path": "model_comparison.csv",
+      "sha256": "4a49f8a2121e0bde97b6e3d8354c6b160bde4148edcac9b259b56233e5a8ca00",
+      "size_bytes": 5841
+    },
+    {
+      "drive_id": "1kE6kqELYy_TZ8AMAtYY51EOSkQUOu3UP",
+      "path": "run_manifest_summary.csv",
+      "sha256": "decbbf0a7611d687267b4b1e138ae4945fc4cde253cb2b998cc5a21ff7a889b2",
+      "size_bytes": 5032
+    },
+    {
+      "drive_id": "1ABMb1UJPIfDv7FVGjzSsXvLn0s30AMqb",
+      "path": "worst_classes_efficientnetv2b3_paper_random_seed1.csv",
+      "sha256": "dd73ce496b7e599c32db2f509b74e21f1f3e5b2a871b3730dd20253e500c174b",
+      "size_bytes": 871
+    },
+    {
+      "drive_id": "16cMEB-TgDruOLru0o-A2Mq9fvPcs8fe4",
+      "path": "worst_classes_efficientnetv2b3_transform_holdout_seed1.csv",
+      "sha256": "9b804ba4ddfd7f1aa23e2a616068939b4bb0121b6454588502b6f5fa5ff32a14",
+      "size_bytes": 738
+    }
+  ],
+  "final_scope_complete": false,
+  "schema_version": 1,
+  "scope": "seed1_exploratory_and_primary_checkpoint"
+}

@@ -1,0 +1,130 @@
+version: 2
+
+body_words:
+  minimum: 30500
+  target: 30800
+  maximum: 31500
+
+chapter_words:
+  01-eisagogi.tex: 2600
+  02-vathia-mathisi.tex: 3100
+  03-viometriki-zoon.tex: 2600
+  04-sxetikes-ergasies.tex: 3500
+  05-dataset.tex: 2600
+  06-proepexergasia.tex: 2600
+  07-arxitektonikes.tex: 2600
+  08-methodologia-apotelesmata.tex: 6300
+  09-syzitisi.tex: 3600
+  10-symperasmata.tex: 1300
+
+matrices:
+  legacy_replication:
+    jobs: artifacts/matrix/experiment_matrix_paper_baseline_final_jobs.json
+    required: true
+  hardening_training:
+    jobs: artifacts/matrix/experiment_matrix_hardening_v2_jobs.json
+    required: true
+    expected_trainings: 29
+  holstein_controls:
+    jobs: artifacts/matrix/experiment_matrix_holstein_hardening_v2_jobs.json
+    required: true
+    expected_evaluations: 16
+
+groups:
+  - name: legacy_paper_replication
+    role: legacy_replication
+    kind: classification
+    match:
+      models: [vgg16, resnet50, mobilenetv2, densenet121, efficientnetb0]
+      protocols: [paper_random]
+      seeds: [2026]
+      protocol_versions: [legacy]
+
+  - name: hardening_primary_fixed_split
+    role: confirmatory_hardening_v2
+    kind: classification
+    match:
+      models: [efficientnetv2b3]
+      protocols: [paper_random_hardening_v2, transform_holdout_hardening_v2]
+      training_seeds: [1, 2, 3, 4, 5]
+      split_seeds: [1]
+      augmentation_seeds: [1]
+      protocol_versions: [hardening_v2]
+
+  - name: hardening_split_sensitivity
+    role: confirmatory_hardening_v2
+    kind: classification
+    match:
+      models: [efficientnetv2b3]
+      protocols: [paper_random_hardening_v2]
+      training_seeds: [1]
+      split_seeds: [2, 3, 4, 5]
+      augmentation_seeds: [1]
+      protocol_versions: [hardening_v2]
+
+  - name: hardening_controlled_ablations
+    role: confirmatory_hardening_v2
+    kind: classification
+    match:
+      models: [efficientnetv2b3]
+      protocols:
+        - ablation_no_cutout_hardening_v2
+        - ablation_224_hardening_v2
+        - ablation_frozen_hardening_v2
+      training_seeds: [1, 2, 3, 4, 5]
+      split_seeds: [1]
+      augmentation_seeds: [1]
+      protocol_versions: [hardening_v2]
+
+  - name: hardening_holstein_primary
+    role: confirmatory_hardening_v2
+    kind: retrieval
+    match:
+      models: [efficientnetv2b3]
+      source_protocols: [paper_random_hardening_v2, transform_holdout_hardening_v2]
+      evaluation_protocols: [holstein2025_zero_shot_reid_hardening_v2]
+      training_seeds: [1, 2, 3, 4, 5]
+      split_seeds: [1]
+      protocol_versions: [hardening_v2]
+
+  - name: hardening_holstein_frozen
+    role: confirmatory_hardening_v2
+    kind: retrieval
+    match:
+      models: [efficientnetv2b3]
+      source_protocols: [ablation_frozen_hardening_v2]
+      evaluation_protocols: [holstein2025_zero_shot_reid_hardening_v2]
+      training_seeds: [1, 2, 3, 4, 5]
+      split_seeds: [1]
+      protocol_versions: [hardening_v2]
+
+  - name: hardening_holstein_imagenet_control
+    role: confirmatory_hardening_v2
+    kind: retrieval
+    match:
+      models: [efficientnetv2b3]
+      source_protocols: [imagenet_only]
+      evaluation_protocols: [holstein2025_zero_shot_reid_hardening_v2]
+      training_seeds: [0]
+      split_seeds: [1]
+      protocol_versions: [hardening_v2]
+
+  - name: legacy_exploratory
+    role: exploratory
+    kind: classification
+    appendix_only: true
+    match:
+      models: [efficientnetv2b3, convnexttiny, efficientnetb0]
+      protocols:
+        - ablation_geometric_only
+        - ablation_no_cutout
+        - ablation_cutout_only
+        - ablation_224
+        - ablation_frozen
+      protocol_versions: [legacy]
+
+excluded_protocols:
+  - external_acquisition_holdout
+  - mask_ear_tag
+  - mask_paint
+  - mask_background

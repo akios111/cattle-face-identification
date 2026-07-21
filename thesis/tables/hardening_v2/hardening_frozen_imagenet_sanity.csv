@@ -1,0 +1,6 @@
+training_seed,embedding_max_abs_difference,embedding_mean_cosine_distance,backbone_hash_equal,batchnorm_hash_equal,mean_average_precision_delta,backbone_tensor_count,batchnorm_moving_tensor_count,reference_embedding_dtype,candidate_embedding_dtype,reference_inference_batch_size,candidate_inference_batch_size,candidate_runtime_policy
+1,0.0212583541870117,5.792157420612377e-06,True,True,-0.0004839304890555,536,176,float32,float16,64,128,mixed_float16
+2,0.0212583541870117,5.796627072959029e-06,True,True,-0.0005799355097617,536,176,float32,float16,64,128,mixed_float16
+3,0.0217466354370117,5.8108212877040285e-06,True,True,-0.0004839947375667,536,176,float32,float16,64,128,mixed_float16
+4,0.0212583541870117,5.833125854373847e-06,True,True,-0.0004832189924363,536,176,float32,float16,64,128,mixed_float16
+5,0.0212583541870117,5.824021255833907e-06,True,True,-0.0004818241580659,536,176,float32,float16,64,128,mixed_float16
