@@ -8,7 +8,7 @@ on:
       tag:
         description: Release tag whose evidence asset will be reproduced
         required: true
-        default: v1.0.0-rc2
+        default: v1.0.0
 
 permissions:
   contents: read

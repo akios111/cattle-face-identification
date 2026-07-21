@@ -1,9 +1,9 @@
 cff-version: 1.2.0
-message: "If you use this software or its evidence artifacts, cite the archived release."
+message: "If you use this software or its evidence artifacts, cite the final release."
 title: "Deep learning for cattle face identification: reproducible evaluation in a single-source-image setting"
 type: software
-version: 1.0.0-rc2
-date-released: 2026-07-21
+version: 1.0.0
+date-released: 2026-07-22
 authors:
   - family-names: "akios111"
 repository-code: "https://github.com/akios111/cattle-face-identification"
