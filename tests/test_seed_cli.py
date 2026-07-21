@@ -119,7 +119,8 @@ def test_train_cli_passes_seed_override(monkeypatch, capsys):
             "skip_completed": False,
         }
     ]
-    assert "artifacts\\runs\\run_seed5" in capsys.readouterr().out or "artifacts/runs/run_seed5" in capsys.readouterr().out
+    output = capsys.readouterr().out.replace("\\", "/")
+    assert "artifacts/runs/run_seed5" in output
 
 
 def test_train_cli_passes_resumable_matrix_arguments(monkeypatch):
